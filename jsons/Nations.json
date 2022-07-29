@@ -1,0 +1,1024 @@
+[
+	// Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+		
+		"uniqueText": "Tips to play: \nAlways turn Religion ON\n
+Clear dungeon as much as possible since they will give a random bonus when cleared.\n
+Build Mana Generator asap if you want to get your herous cheaper.\n\n
+Play as Almuria:\n
+Fight alongside Coast or water resources since it'll make Almuria units stronger, Search Megall as much as possible, Build Siren instead of Worker\n\n
+Play as Cavegoa:\n
+Build cities near water resources, Don't sleep Military units until fully healed since they'll lose Strength bonus, Use Worker or Inquisitor as Scout.\n\n
+Play as Erhab:\n
+Build Melee units as much as possible, especially Rakshasa, Be ally with City-State especially Militaristic.\n\n
+Play as Frostmorrow:\n
+Fokus on specialists, Frostmorrow is the only Civ with food-production specialists, Build lots Yeti when available\n\n
+Play as Malus:\n
+An Anti-Cavalry Civ, With all military (experience) building, Malus units can get 3 promotions immediately, Definitely Nas rival on hunting Barbarians\n\n
+Play as Marunesia:\n
+Wealthy water-based Civ, Zeal Galleass is strong middle age units that can enter Ocean faster than other Civ units, except Almuria\n\n
+Play as Morlovia:\n
+Build Dracula as much as possible since they'll get stronger every age, Build Vampire Castle near Great Improvement for maximum gains, especially near Holy Site to generate Faith to buy Dracula\n\n
+Play as Nas:\n
+Fokus on attacking Barbarians & use Laskar to dominate any Land\n\n
+Play as Niranna:\n
+Make Friend as much as possible, use Centaurs for hit and run unit\n\n
+Play as Polgar Spd'em:\n
+Fokus on building & building, get Scientific or Cultural vitory, buy every available non-Wonder building in Capital\n\n
+Play as Rain Forest:\n
+Build Threesed as fast as possible since it'll boost cities production (stronger than Lumber Mill effect), Hold Ranged units on Forest and shoot every enemy passing through\n\n
+Play as Red Moon:\n
+Fokus on Faith and Daggerman, Daggerman generate Great General 50% faster, which is give double Strength bonus\n\n
+Play as Smeheng:\n
+Tall and defensive Civ, perfect counter for Almuria and Dracula unit without Daywalker skill\n\n
+Play as Sulvana:\n
+Build near Fresh water & choose Divine Spark Belief for more Great Person generation boost, fokus on generate Maeron to construct Sacred Groove as much as possible\n\n
+Play as Thallin:\n
+As it name, Tall, relying on so long Golden Age for Cultural Victory\n\n
+Play as Thorin:\n
+Mounted Civ, fastest Civ on Land, with extra Sight for every Military Land unit, fokus warring it is\n\n
+Play as Torakj:\n
+Plunder Gold to maintain relationship with City-State, that is, as for Belief choose Defender of the Faith to protect allied City-State, or destroy it\n\n
+Play as Townfolk:\n
+Sulong's Training give happiness, happiness bring Golden Age, Golden Age boost unit Strength & Science output, when to war? of course during Golden Age\n\n
+Play as Twin Mountain:\n
+Claim Mountain as much as possible, not only it'll boost units Strength, it also generate Science, Gold, and Production when the time comes\n\n
+Play as Urg:\n
+War is after you create lots Dullahan and Fury, and since Skroths are fast, domination it must be\n\n
+Play as Vedic:\n
+Play calm, your Science power will shine from mid-to-last game, fill Scientist slot to get Great Scientist, expend it for quick research with +15 Science more, Science can be bought anyway\n\n
+		",
+	},
+	
+	
+	// Nations
+	{				
+		"name": "Nas",
+		"leaderName": "Galamar III",
+		"adjective": ["Nassette"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Spontanism",
+		"style": "Human",
+		
+		"startIntroPart1": "All hail King Galamar, the King in the north. With your courage and strategy, Thorin become the first kingdom to almost rule over the north of Pangaea. But when you just at war with Malus Kingdom, your only brother, Valadorn point his sword to you. Worry no more, with the help of your Knight, Nas Kingdom join war for you!",
+		"startIntroPart2": "King Galamar, will you once again unite the nort of Pangaea? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!"
+		"attacked": "Huh! Look like I have to destroy you!",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "I am Galamar, the King in the North!",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		"tradeRequest": "Let's work together and maintain peace between us.",
+				
+		"outerColor": [ 28,51,119],
+		"innerColor": [255,255,255],
+		"uniqueName": "Preacher King",
+		"uniqueText": "100% chance to recruit a Barbarian unit from a conquered dungeon\n25% chance of capturing defeated Barbarian naval units\n-33% maintenance costs for Military Land and Water units",
+		"uniques": ["When conquering an encampment, earn [0] Gold and recruit a Barbarian unit <with [100]% chance>", 
+			"When defeating a [{Barbarian} {Water}] unit, earn [0] Gold and recruit it <with [25]% chance>", 
+			"[-33]% maintenance costs <for [{Military} {Land}] units>", 
+			"[-33]% maintenance costs <for [Water] units>"],
+		"cities": ["Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna","Palebon","Metesech",
+			"Jaragar","Erech","Arbela","Gandariya"]
+	},
+	
+	{
+		"name": "Thorin",
+		"leaderName": "Valadorn I",
+		"adjective": ["Thorian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Monetarism",
+		"style": "Human",
+		
+		"startIntroPart1": "Hail King Valadorn The Usurper. Your brother king fight in an endless war and force civilian for military services. With the God's whisper and blessing, you sit on the throne. It is now your duty to hunt down your mad brother and end his deeds.",
+		"startIntroPart2": "King Valadorn, will you stop your brother warmongering way? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger! I am Valadorn, your true king!",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		"tradeRequest": "Let us do business! Would you be interested?",
+				
+		"outerColor": [255,184,33]
+		"innerColor": [153,5,3],
+		"uniqueName": "Tracker Legion",
+		"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Land}] units>", 
+			"[+1] Movement <for [{Military} {Land}] units> <when at war>", "Normal vision when embarked <for [{Military} {Land}] units>"],
+		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
+			"Lörissa","Joho Lor","Temwan","Sobayan","Senden"]
+	},
+	
+	{
+		"name": "Malus",
+		"leaderName": "Barret Burritö",
+		"adjective": ["Malusian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Butterfly Effects",
+		"style": "Human",
+		
+		"startIntroPart1": "The blessings of the gods be upon you, King Barret. Your kingdom is the only one who can stand againt Galamar army. Not only repel them, you also captured Malusaö city as the new kingdom's capital.",
+		"startIntroPart2": "O' King Barret, will you stop evil deeds again? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your very existence truly bothering me. Face my army!",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "I wish you peace.",
+		
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+		
+		"outerColor": [146,221,9],
+		"innerColor": [0,0,9],
+		"uniqueName": "Experience is the Best Teacher",
+		"uniques": ["[Great Scientist] is earned [50]% faster", "[+2 Science] from every [Great Improvement]", 
+			"Earn [10]% of killed [Barbarian] unit's [Cost] as [Science]"],
+		"cities": ["Målusaö","Mlese","Tegålruö","Wanrådjö","Böran","Jåpanöan","Khujön","Böwan Pök","Trösö","Watese",
+			"Wetön","Bönusö","Låiden Hill","Tlulaö","Sudd Garden"]
+	},
+	
+	{
+		"name": "Urg",
+		"leaderName": "Saeth",
+		"adjective": ["Demonic"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Uncertainty",
+		"style": "Demonic",
+		
+		"startIntroPart1": "Your armies kneel before you, oh great Lord Saeth. Through cunning diplomacy and military prowess, great Lord conquered proud Sulvana, wealthy Cavegoa, and indirectly control Valadorn I, king of Thorin. Over time, your army might expanded into far away Twin Mountain, until the upstart villains The League, destroyed the great empire in one shocking campaign.",
+		"startIntroPart2": "Oh, Lord Saeth, for uncounted years your armies endured, they look to you to lead them once more into greatness. Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "Greetings, I am Saeth the god.",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		
+		"outerColor": [35,35,35],
+		"innerColor": [246,205,137],
+		"uniqueName": "Heaven's Fury",
+		"uniqueText": "Units fight as though they were at full strength even when damaged\nStarting from the Feudal age, gain a Free Fury from every age\nGain 3 additional Fury during the Feudal age",
+		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>", "\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Tugu","Luxor","Karnak","Oryx"]
+	},
+	
+	{
+		"name": "Sulvana",
+		"leaderName": "Lulla",
+		"adjective": ["High-Elven"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Evolutionism",
+		"style": "Elven",
+	
+		"startIntroPart1": "Praises upon her serene highness, Queen Lulla Artiana, favored daughter of the gods and shield to the citizens of Sulvana. You love peace but mercilessly struck back at the enemies of your people, sacrificing their leaders in retribution for the insults dealt to your predecessors.",
+		"startIntroPart2": "Queen Lulla, will you bring about a new golden age for the Sulvana people? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "By the grace of God, your days are numbered.",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "You have triumphed over us. The day is yours.",
+		"introduction": "We are pleased to meet you.",
+		
+		"neutralHello": "Hello, again.",
+		"hateHello": "Never ever come to us again!",
+		"tradeRequest": "Your goods seems good, why don't we help each other?",
+		
+		"outerColor": [228,208,43],
+		"innerColor": [0,0,0],
+		"uniqueName": "Arrow of the West",
+		"uniqueText": "+10% great person generation in all cities\nGreat Artist generated by Sulvana become the Maeron, which can create the Sacred Grove",
+		"uniques": ["[+10]% great person generation in all cities"], 
+		"cities": ["Blathanna","Asylla","Izapa","Kutha","Herakleia","Xinta","Emnha","Lanchasia","Tula","Chitta","Ostia","Aquileia","Adria",
+			"Santana","Prassia"]
+	},
+	
+	{
+		"name": "Niranna",
+		"leaderName": "Nualla Nina",
+		"adjective": ["Elven"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Balance",
+		"style": "Elven",
+		
+		"startIntroPart1": "Long life and triumph to you, Queen Nualla Nina. Queen Nualla, you are the founder of The League for the world peace. You are the one who pursuade Galamar to stop his expansion and reunite him with his brother, Valadorn.",
+		"startIntroPart2": "O' beauty Queen Nualla, Niranna yearns for you to lead them once more to greatness and maintain the world peace. Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "Is this our end? Please, bring unity upon this world on my stead.",
+		"introduction": "Welcome. We seek peace with all, and all for peace.",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Let's help each other for better life.",
+		
+		"outerColor": [255,255,78],
+		"innerColor": [70, 0, 4],
+		"uniqueName": "Peace upon All",
+		"uniques": ["City-State Influence recovers at twice the normal rate", "Science gained from research agreements [+33]%", 
+			"When declaring friendship, both parties gain a [10]% boost to great person generation"],
+		"cities": ["Possadha","Sikaiana","Nuguria","Uvea","Java","Javabazha","Takhada","Tea","Heava","Rindhanna",
+			"Icha","Archana","Na Nirwana","Nuallazea","Zazhua"]
+	},
+	
+	{
+		"name": "Red Moon",
+		"leaderName": "Claudia",
+		"adjective": ["Witches"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Preformationism",
+	
+		"startIntroPart1": "Greetings, our wondrous Lady Claudia. Red Moon lies at the heart of Pangaea. Despite blessed with unparalelled strength, Lady Claudia choose diplomatic way for both interest. You are the first person to acknowledge Queen Nualla idea and became the first leader of The League.",
+		"startIntroPart2": "Lady Claudia, the people look to you to bring forth peace days for everyone. Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "It is obvious now that I misjudged you and your true intentions.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		
+		"outerColor": [153,5,3],
+		"innerColor": [255,255,255],
+		"uniqueName": "Infinite Power",
+		"uniques": ["Great General provides double combat bonus", "[+50]% [Faith] from City-States", 
+			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", 
+			"Starts with [Piety] adopted"],
+		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
+			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"]
+	},
+	
+	{
+		"name": "Twin Mountain",
+		"leaderName": "Thraldin",
+		"adjective": ["Dwarven"],
+		//"startBias":["Mountain"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Butterfly Effects",
+		"style": "Dwarven",
+		
+		"startIntroPart1": "Greetings, Thraldin, general and emperor of Twin Mountain and all his holdings, king under the mountain. Your empire was the smartest to take advantage of mountains resources. Nobody loves the mountain as you do. The mountains serves you.",
+		"startIntroPart2": "O mighty king, your people turn to you to once more appreciate the mountains! Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Now we will see if you are cowards or warriors!",
+		"attacked": "I shall tell my historians to record your empire for the future, after I have ground your cities into the dust.",
+		"defeated": "I never thought this could happen… not like this.",
+		"introduction": "I am Thraldin. My fortress will stand forever.",
+		
+		"neutralHello": "What?",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I offer this, for your consideration.",
+		
+		"outerColor": [27,53,63]
+		"innerColor": [213,249,255],
+		"uniqueName": "Shield of the Mountain",
+		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
+			"Units ending their turn on [Mountain] tiles take [15] damage"],
+		"cities": ["Thraldin's Palace","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
+			"Circle Cliff","Darken Crest","Cremona","Red Ice","Tiltein","Vennelin","Drumlen"]
+	},
+	
+	{
+		"name": "Polgar Sod'em",
+		"leaderName": "Hajruddin",
+		"adjective": ["Dwarvem"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Relativity",
+		"style": "Dwarven",
+		
+		"startIntroPart1": "The blessings of the gods be upon you, Hajruddin, leader of the Polgar Sod'em! Oh great lord, from time immemorial your people brought architecture to the next level. They created the great monuments which still stand tall and proud.",
+		"startIntroPart2": "Great lord, your people look to you to return them to greatness! Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent power!",
+		"defeated": "How could we fall to the likes of you?!",
+		"introduction": "Welcome foreigner, I am Hajruddin. Come and tell me about your empire.",
+		
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Well?",
+		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
+		
+		"outerColor": [37,56,123],
+		"innerColor": [255,46,46],
+		"uniqueName": "Master Builder",
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+			"[+15]% Production towards any buildings that already exist in the Capital", 
+			"[+1 Production] from every [Strategic resource]"],
+		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panema Caniem",
+			"Petra","Redemeer","Picchu","Angkoreen","Mozi","Fez","Balkh"]
+	},
+	
+	{
+		"name": "Townfolk",
+		"leaderName": "Jag'ar",
+		"adjective": ["Folks"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Dualism",
+		
+		"startIntroPart1": "Welcome King Jag'ar, leader of the massacred civilization! Formed in the brink of extinction and forced slavery, you lead your people to reclaim what is rightfully yours. With the united of racial and historical similarities, you build your own country and now, slavery is no more.",
+		"startIntroPart2": "King Jag'ar, can you lead the Townfolk people to greatness? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "Excellent! Let the blood flow in raging torrents!",
+		"defeated": "Now the question is who will protect my people. A dark age has come.",
+		"introduction": "I am Jag'ar. We are a fair people - but those who cross the line will find only destruction.",
+		
+		"neutralHello": "Good day.",
+		"hateHello": "What?",
+		"tradeRequest": "We offer this fair trade.",
+		
+		"outerColor": [228, 26, 40],
+		"innerColor": [134,238,214],
+		"uniqueName": "Rage of the Beast",
+		"uniques": ["[+50]% Golden Age length", "[+10]% Strength <for [All] units> <during a Golden Age>", 
+			"[+15]% [Science] <during a Golden Age>", "Gain a free [Sulong's Training] [in capital] <after discovering [Bronze Working]>"],
+		"cities": ["Townfolk","Lions","Tigers","Bears","Bulls","Wolves","Foxes","Gorillas","Leopards","Houston",
+			"Raccoons","Rhinocheroses","Warthogs","Orcas","Pandas","Piranhas"]
+	},
+	
+	{
+		"name": "Cavegoa",
+		"leaderName": "Borris Baldur",
+		"adjective": ["Goans"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Spontanism",
+		
+		"startIntroPart1": "Greetings to you, King Baldur. The Cavegoa people are grateful for King Jag'ar's help in the past. But by the time goes, their very brothers and descendants become uncontrollably wild. They start discriminate their brothers and hunt them down mercilesly. And you, o' King Baldur, you stand tall and save the people.",
+		"startIntroPart2": "O' saviour, will you lead the Cavegoa people to prosperity? Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "You are an abomination to earth, the chief of ignorant savages! You must be destroyed!",
+		"attacked": "We shall never surrender.",
+		"defeated": "Monster! Who are you to destroy my greatness?",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "Leave me alone!",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		
+		"outerColor": [16,126,5],
+		"innerColor": [134,238,214],
+		"uniqueName": "Survival Instinc",
+		"uniques": ["[+5] HP when healing <for [Wounded] units>", "[+10]% Strength <for [Wounded] units>", 
+			"[+10]% Strength <when below [50] HP> <when defending>", "[+1] Sight <for [Civilian] units>"],
+		"cities": ["Goa","Armant","Lisht","Chondote","Nedrow","Lawless","Pajaten","Skien","Crossy","Grassrich",
+			"Amphibeast","Stone Valley","Cattle","Shining Lake","Nomad River"]
+	},
+	
+	{
+		"name": "Rain Forest",
+		"leaderName": "Ridha Mascha",
+		"adjective": ["Dryad"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Balance",
+		
+		"startIntroPart1": "Praise upon m'lady, Ridha Mascha. You are the ruler of Rain Forest, a forest in the south which disconcerting any stranger passing through. It is said that no army can enter your holy home and only good deeds may encounter you.",
+		"startIntroPart2": "M'lady, your people look to you to lead them to an utopia! Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Shame that it has come this far. But ya wished it so. Next time, be so good, choose your acts more wisely. ",
+		"attacked": "What a fool of ya! Ya will end swiftly and miserably.",
+		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
+		"introduction": "Welcomes, stranger. Just... Be a good one!"
+		
+		"neutralHello": "Welcome.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I have heard that you adept at certain kinds of ... interactions.  Show me.",
+		
+		"outerColor": [ 41,83,42],
+		"innerColor": [146,221,9],
+		"uniqueName": "Forest Guardian",
+		"uniques": ["Cannot [Remove Forest] except by Great Improvement", 
+			"Cannot build [Lumber mill] improvements", 
+			"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
+			"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
+		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindschel","Agra","Sunda","Soulisa","Tuasika","Bula","Namlea",
+			"Gulbarga","Larantuka","Curia","Crastha"]
+	},
+	
+	{
+		"name": "Torakj",
+		"leaderName": "Anzogh",
+		"adjective": ["Goblin"],
+		"startBias": ["Avoid [Desert]"],
+		"favoredReligion": "Uncertainty"
+		"style": "Goblin",
+		
+		"startIntroPart1": "Welcome, O' elder Anzogh! We grovel in awe at your magnificence! You are the leader of Torakj people, through cunning diplomacy, the tiny village grew into a mighty forces.",
+		"startIntroPart2": "Oh, wise and puissant tetua Anzogh, your people need you to once again lead them to greatness! Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my men. We ride to war!",
+		"attacked": "It is silence that allows evil to triumph. We will not stand mute and allow you to continue on this mad quest unchecked.",
+		"defeated": "This isn't how it is supposed to be!",
+		"introduction": "How do you do? You stand before Anzogh, just Anzogh.",
+		
+		"neutralHello": "What do you want now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "It would be in your best interest, so carefully consider this proposal.",
+		
+		"outerColor": [12,75,25],
+		"innerColor": [255,255,255],
+		"uniqueName": "Justice League",
+		"uniques": ["[-25]% City-State Influence degradation", "City-State territory always counts as friendly territory",
+			"[+50]% [Food] from City-States", "[+50]% [Culture] from City-States"],
+		"cities": ["Torakj","Mogrim","Gaul","Dade","Talu","Bullu","Bao","Kasel","Neuss","Herne","Bonn","Loyn","Wisbaden",
+			"Horkj","Skurkj"]
+	},
+	
+	{
+		"name": "Frostmorrow",
+		"leaderName": "Tormund Drake",
+		"adjective": ["Icemen"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Evolutionism",
+		"style": "Icemen",
+		
+		"startIntroPart1": "Greetings, wise chief Tormund. Your men stand proudly to greet you, grand leader of the Frozen Empire. Together with your people you survive the ferocity of the cold, droughts, and every manner of disaster.",
+		"startIntroPart2": "Chief General, your people call for the recreation of a new Frozen Empire. Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "I hereby proclaim you an enemy to Frostmorrow, our allies, and God, may he have mercy on your soul.",
+		"attacked": "You evil creature! My braves will slaughter you!",
+		"defeated": "Although I lost, my honor shall endure. I am waiting for my execution.",
+		"introduction": "You are in the presence of Tormund Drake of Frostmorrow, grand leader of the Frozen Empire. But I suppose you heard that.",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "You should be ashamed, and will be.",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+		
+		"outerColor": [215,225,225],
+		"innerColor": [0, 0, 0],
+		"uniqueName": "Blessed Winter",
+		"uniqueText": "-25% Culture cost of natural border growth in your first 4 cities\n-25% unhappiness from specialists in your first 4 cities\nReceive free Great Farmer when you discover Pottery",
+		"uniques": ["Provides a [~suka] in your first [4] cities for free", "Receive free [Great Farmer] when you discover [Pottery]"],
+		"cities": ["Frostmorrow","Igos","Sandless","Noach","Maumere","Iver","Ykutz","Vladivostok","Smolensk","Orenburg",
+			"Bryansk","Kver","Murmansk","Irkutsk","Chita","Samara"]
+	},
+	
+	{
+		"name": "Smeheng",
+		"leaderName": "Esheng",
+		"adjective": ["Deserter"],
+		"startBias": ["Oasis","Desert"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Evolutionism",
+		"style": "Desert",
+		
+		"startIntroPart1": "'Do not come near that creature!' they say. While everybody agree with that argument, you are different. Not only did you come near them, but also slaughter them as your prey. Before long, your men become the only one to control the east.",
+		"startIntroPart2": "Illustrious Tukang Ngumbar Janji, your people once again look to you for leadership and counsel in the coming days. Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You start hunting my prey, prepare for war!",
+		"attacked": "Shame on you, using violence which doesn't solve anything.",
+		"defeated": "This will not be the end of my people, I assure you.",
+		"introduction": "Hello, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		
+		"outerColor": [221, 141, 0],
+		"innerColor": [255, 244, 174],
+		"uniqueName": "Sand Dweller",
+		"uniques": ["[+1 Food] from every [Flood plains]", "[+5]% Strength <when fighting in [Desert] tiles>", 
+			"[+10]% Strength <when fighting in [Friendly Land] tiles>"],
+		"cities": ["Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
+			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir"]
+	},
+	
+	{
+		"name": "Marunesia",
+		"leaderName": "Zalash",
+		"adjective": ["Moken-Arun"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Preformationism",
+		"style": "Moken",
+		
+		"startIntroPart1": "Great Zalash of Marunesia, King of Benevolence, wealth has been on your side for long. You rally your people towards an era of peace and comfort. Surely the Moken-Arun adore such a King as thyself, O, Great Zalash. Your cunning use of Empire's wealth to secure diplomatic advantage is admirable. No peace is unattainable, even if you must force it by your hands.",
+		"startIntroPart2": "Revered King Zalash, your people longs for a leader who can provide a shelter from the coming storm. Will you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "We've tried peaceful approaches, but you lack the ability to conceive such idea. I'm afraid we need to force you into submission!",
+		"attacked": "I hope we can reach an understanding after all of this.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Salama ki mae battu. In the name of the Marunesia people, I bid you welcome.",
+		
+		"neutralHello": "Salama, what bring you here my friend?",
+		"hateHello": "Tell me, WHAT is your business here?",
+		"tradeRequest": "Please consider this offers, surely you won't be at loss.",
+		
+		"outerColor": [156, 197, 237],
+		"innerColor": [16, 25, 115],
+		"uniqueName": "Tiger Trawl",
+		"uniques": ["[+2 Gold] from every [Water resource]", "Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
+			"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]"],
+		"cities": ["Regalia","Alion","Gatland","Burnei","Vinia","Sibisia","Codendia","Riverbed","Schoels Ridge","Magath Trench",
+			"Seamountea","Creef","Galesia","Aneka","Moresby","Palau"]
+	},
+	
+	{
+		"name": "Thallin",
+		"leaderName": "Sengai",
+		"adjective": ["Bloodliner"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Monetarism",
+		
+		"startIntroPart1": "Greetings, most astute Parun Sengai of Thallin, master of statecraft and shrewd negotiator. In aligning yourself with the Crusaders, you carefully gained a strategic advantage and used the Crusaders to acquire an even greater expansion of your power and secured your legacy throughout history, by ensuring pure bloodline as the dukes. What you did ain't racism, you are the pioneer of the art of feudalism",
+		"startIntroPart2": "Most insightful and cunning Parun, Thallin once again requires the service of a skilled leader. Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "If you are truly a worthy ruler yourself, then prepare for war!",
+		"attacked": "You wish to disturb our peace? Then come, let's see if you have the will to destroy my kingdom!",
+		"defeated": "Better go rather than be a slave of such villain!",
+		"introduction": "The parun of Thallin welcomes you to... Watch your hand please.",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What?",
+		"tradeRequest": "Nobody should say that I am an unjust ruler. Let's reach an agreement!",
+		
+		"outerColor": [55,25,8],
+		"innerColor": [156,197,237],
+		"uniqueName": "Pure Bloodline",
+		"uniqueText": "Settler gained slower\n+2 Gold, -25% unhappiness from population in your first 4 cities\n+8 Culture, Gain a free Great Artist equivalent upon completion of Tradition policy Tree\n+33% Unhappiness from population in annexed cities",
+		"uniques": ["Provides a [Astana] in your first [4] cities for free", "[+33]% Unhappiness from [Population] [in annexed cities]"],
+		"cities": ["Clansperson","Getih","Kinsfolk","Consanguine","Sib","Grandeur","Cults","Claret","Clot","House Rules",
+			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"]
+	},
+	{
+		"name": "Morlovia",
+		"leaderName": "Vlad Dracula",
+		"adjective": ["Vampire"],
+		"startBias": ["Hill"],
+		"favoredReligion": "Monetarism",
+		
+		"startIntroPart1": "Hail mighty Vlad Ţepeş, notorious Voivode of Morlovia! Morlovia is an upstart kingdom, fashioned from the ruins of the Jorah Empire, a cursed ancient ruins, and established during Men's War started by King Galamar. Almost every races judges vampirism as a curse or a disease, but they don't know that, this body changes, is actually a blessing. By your vision, you turn the ancient ruin, which is contain the sources of vampirism, as all vampires home.",
+		"startIntroPart2": "Great Voivode Vlad, the Morlovia people look up to you to lead them to greater days of glory. Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed.",
+		"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
+		"defeated": "I have lived long enough to know when I am defeated. Carry on.",
+		"introduction": "I am Vlad Dracula, and the Morlovia allow me to lead them. Their suffering is my suffering.",
+		
+		"neutralHello": "Good night.",
+		"hateHello": "You are a detestable person.",
+		"tradeRequest": "Accept these gifts—they are purified.",
+		
+		"outerColor": [254,204,32],
+		"innerColor": [0,55,106],
+		"uniqueName": "Bloodlust",
+		"uniqueText": "Starting from the Feudal age, May buy Dracula units for 100 Faith in all cities at an increasing price 25\nDracula units become stronger from every age but start with -15 Experiece\nAll Military Land units Heals 15 damage if it kills a unit\nUpon discovering Chivalry, May construct 4 Vampire Castle with half of neighboring improvements stats, including Great improvements",
+		"uniques": ["May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
+			"Gain a free [Vampiric Block] [in capital] <after discovering [Chivalry]>", 
+			"[{Military} {Land}] units gain the [Vampiric Touch] promotion", 
+			"New [Dracula] units start with [-15] Experience [in all cities]", 
+			"Receive free [Dracula] when you discover [Philosophy]"],
+		"cities": ["Transylvania","Varkola","Sanguins","Chupacabra","Vlokodla","Mormolykia","Abhartcia","Kravopiea","Llorona","Lampire",
+			"Dachnavar","Op'a","K'uei","Nuruanna","Zolla"]
+	},
+	
+	{
+		"name": "Erhab",
+		"leaderName": "Magnar",
+		"adjective": ["Giants"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Butterfly Effects",
+		
+		"startIntroPart1": "Honor and glory be yours, Og Magnar, founder of the Erhab Tribe and his most distinguished military tactician. Giants are a free race, joining every battle to defend anyone for the right price. It was because your greatness that giant race united and emerged as the greatest powers in the world. Your tribe was the only one who dared to refuse King Galamar's invitation during Men's War and ridicule the idea of submitting to Lord Saeth.",
+		"startIntroPart2": "Mighty Og, you are called to rise up and lead your people to renewed power and triumph! Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "The God of Erhab will decides who is right between us... and lets him live.",
+		"attacked": "Ahahah! You seem to show some skills of a true warrior! Too bad that I'll probably kill you!",
+		"defeated": "The gods have deprived Erhab of their favour. We have been defeated.",
+		"introduction": "Magnar bids you welcome to his lands! Hah, are you afraid?",
+		
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, an ant.",
+		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+		
+		"outerColor": [40, 19, 2],
+		"innerColor": [229, 179, 57],
+		"uniqueName": "Mercenary Combatant",
+		"uniques": ["[+10]% Strength <for [Melee] units>", "No movement cost to pillage <for [Melee] units>", 
+			"Resting point for Influence with City-States is increased by [10]", "Gain [20] Influence with a [{Military} {Melee}] gift to a City-State"],
+		"cities": ["Og","Fomoran","Fachan","Fódla","Ravna","Angrboða","Farragus","Kapra","Khalefi","Odánu",
+			"Ogeass","‘Uj Anaq","Bomba","Kuafu","Pecas Ndah","Blačko"]
+	},
+	
+	{
+		"name": "Vedic",
+		"leaderName": "Rumpleister Zeiwass",
+		"adjective": ["Gnome"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Dualism",
+		
+		"startIntroPart1": "Especially in times of great changes, when new knowledge and new ways of being show great potential to change the way of life, society tries to arise based around the cultivation and protection of this secret, world-transforming knowledge. Honorable Zeiwass, with your limitless knowledge, you know all secrets, even the formulae to transmute base metals to gold.",
+		"startIntroPart2": "Clever and inquisitive Zeiwass, your people desire that you rise and lead them again in the calling that is your namesake. Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "I tried so many ways but you continue doing craziness. I wish you a fast ending.",
+		"attacked": "Turns out, you don't do well avoiding conflict.",
+		"defeated": "No...",
+		"introduction": "Welcome. Information are power, they come very expensive. What do you want to know?",
+		
+		"neutralHello": "Welcome.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [78,244,234],
+		"innerColor": [85,74,32],
+		"uniqueName": "Occult Research",
+		"uniqueText": "+15 Gold, +15 Science whenever a Great Person is expended\n-1 Production, +2 Gold from tiles of Any resource to be mined\nCan buy science with gold (max 10 science per city) after constructing Alchemical Society",
+		"uniques": ["[+15 Gold, +15 Science] whenever a Great Person is expended", "[-1 Production, +2 Gold] from [Iron] tiles [in all cities]", 
+			"[-1 Production, +2 Gold] from [Amber] tiles [in all cities]", "[-1 Production, +2 Gold] from [Copper] tiles [in all cities]", 
+			"[-1 Production, +2 Gold] from [Gems] tiles [in all cities]", "[-1 Production, +2 Gold] from [Gold Ore] tiles [in all cities]", 
+			"[-1 Production, +2 Gold] from [Jade] tiles [in all cities]", "[-1 Production, +2 Gold] from [Salt] tiles [in all cities]", 
+			"[-1 Production, +2 Gold] from [Silver] tiles [in all cities]"],
+		"cities": ["Krimora","Moribar","Scoetel","Eywass","Zheyn","Mogush","Nomen","Jurdem","Gnash","Sarthkiri",
+			"Hakanan","Ley","Tilt Lines","Shandas","Remore","Neophyte"]
+	},
+	{
+		"name": "Almuria",
+		"leaderName": "Fala Vieya",
+		"adjective": ["Merfolks"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Relativity",
+		
+		"startIntroPart1": "Honour be with you, oh great emperor Fala Vieya. Almuria was a powerful empire, controlling Manas Island and the entire Archiea Continent. In an attempt to seize Smeheng, The League defeated you and drowned your entire empire with the power of the Tristone. It is said that the remains of your empire still active under the sea, only you and your people knew what is truly going on.",
+		"startIntroPart2": "But is Almuria indeed gone forever, great Fala Vieya? Your people look to you to bring the empire back to life once more. Will you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Let there be war between us! I will wrestle your lands away, and rule your subjects with strength.",
+		"attacked": "Act of insolence against our magnificence can't be tolerated! You shall pay the price!",
+		"defeated": "This severe and afflicting loss will not be sustained, and Almuria, thank providence, will ascend again.",
+		"introduction": "I am Fala Vieya, the ruler of the sea. I come to reclaim the land.",
+		
+		"neutralHello": "Hello, land dweller.",
+		"hateHello": "You are like the muck that spreads around ships in calm waters.",
+		"tradeRequest": "Let us join our forces together and reap the rewards.",
+		
+		"outerColor": [0,43,11],
+		"innerColor": [0,242,189],
+		"uniqueName": "The Lost Continent",
+		"uniqueText": "Can embark and move over Coasts and Oceans immediately\nMilitary Land units become stronger when fighting in adjacent to Water tiles and become weaker when fighting in Desert\nEmbarked units can defend themselves",
+		"uniques": ["Enables embarkation for land units <starting from the [Archaic age]>", 
+			"Enables [All] units to enter ocean tiles <starting from the [Archaic age]>",
+			"[{Military} {Land}] units gain the [Water Creature] promotion", "Defense bonus when embarked <for [All] units>", 
+			"Double quantity of [Megall] produced", "[1] Movement point cost to embark <for [Siren] units>", 
+			"[1] Movement point cost to embark <for [Sword] units>"],
+		"cities": ["Lemuria","Atlantis","Agarthea","Avalonia","Erum","Kitezha","Kumari Kanda","Mu","Shangri-La","Lyonessa","Quivira","Buyana",
+			"Cantre'r Gwaelea","Cibola","Llys","Ys","Ogygia"]
+	},
+	
+	// City-States
+	{
+		"name": "Artiza",
+		"adjective": ["Artizan"],
+		"cityStateType": "Cultured",
+		"style": "Human",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [255,153,255],
+		"cities": ["Artiza"]
+	},
+	{
+		"name": "Doomspire",
+		"adjective": ["Sandman"],
+		"cityStateType": "Cultured",
+		"startBias": ["Desert"],
+		"style": "Desert",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [20, 20, 20],
+		"innerColor": [194,97,255],
+		"cities": ["Doomspire"]
+	},
+	{
+		"name": "Gildar",
+		"adjective": ["Dark-Elven"],
+		"cityStateType": "Cultured",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [ 20,20, 20],
+		"innerColor": [255,97,255],
+		"cities": ["Gildar"]
+	},
+	{
+		"name": "Manthrill",
+		"adjective": ["Dwarvs"],
+		"cityStateType": "Cultured",
+		"style": "Dwarven",
+		"uniques": ["Starts with [Mining]"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [255,153,153],
+		"cities": ["Manthrill"]
+	},
+	{
+		"name": "Feu Follet",
+		"adjective": ["Ego-Vampire"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [ 20,20,20],
+		"innerColor": [153,10,96],
+		"cities": ["Feu Follet"]
+	},
+	{
+		"name": "Windemer",
+		"adjective": ["Essen-Elven"],
+		"cityStateType": "Cultured",
+		"style": "Elven",
+		"uniques": ["Starts with [Archery]"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the flower of Windemer falls to barbaric hands...",
+		"outerColor": [ 20,20, 20],
+		"innerColor": [152, 0,241],
+		"cities": ["Windemer"]
+	},
+
+	{
+		"name": "Glaceholm",
+		"adjective": ["Primal-Beastmen"],
+		"cityStateType": "Maritime",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [20, 20, 20],
+		"innerColor": [ 0,255,128],
+		"cities": ["Glaceholm"]
+	},
+	{
+		"name": "Hellsand",
+		"adjective": ["Primitive"],
+		"cityStateType": "Maritime",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [20, 20,20],
+		"innerColor": [45,235,86],
+		"cities": ["Hellsand"]
+	},
+	{
+		"name": "Highlander",
+		"adjective": ["Essen-High-Elven"],
+		"cityStateType": "Maritime",
+		"startBias": ["Hill"],
+		"style": "Elven",
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for us all.",
+		"outerColor": [20, 20,20],
+		"innerColor": [51,182, 0],
+		"cities": ["Highlander"]
+	},
+	{
+		"name": "Irgask",
+		"adjective": ["Ego-Goblin"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+		"style": "Goblin",
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of Irgaskians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [20, 20,20],
+		"innerColor": [81,172,40],
+		"cities": ["Irgask"]
+	},
+	{
+		"name": "Panema",
+		"adjective": ["Panemians"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+		"uniques": ["Starts with [Pottery]"],
+
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [20, 20,20],
+		"innerColor": [10,162,60],
+		"cities": ["Panema"]
+	},
+
+	{
+		"name": "Concordia",
+		"adjective": ["Cordians"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [ 20, 20,20],
+		"innerColor": [255,255, 0],
+		"cities": ["Concordia"]
+	},
+	{
+		"name": "Crotoa",
+		"adjective": ["Merchant-Beast"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [ 20, 20,20],
+		"innerColor": [211,205,51],
+		"cities": ["Crotoa"]
+	},
+	{
+		"name": "Frostwaste",
+		"adjective": ["Wildling"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Snow"],
+		"style": "Icemen",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [ 20, 20,20],
+		"innerColor": [211,220,93],
+		"cities": ["Frostwaste"]
+	},
+	{
+		"name": "Gahaldur",
+		"adjective": ["Merchant-Dwarven"],
+		"cityStateType": "Mercantile",
+		"style": "Dwarven",
+		"uniques": ["Starts with [Mining]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [255,255,100],
+		"cities": ["Gahaldur"]
+	},
+	{
+		"name": "Tonthon",
+		"adjective": ["Merchant-Goblin"],
+		"cityStateType": "Mercantile",
+		"style": "Goblin",
+		"uniques": ["Starts with [Trapping]"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [ 20, 20,20],
+		"innerColor": [235,215,55],
+		"cities": ["Tonthon"]
+	},
+
+	{
+		"name": "Corelia",
+		"adjective": ["Pirates"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [221,170,113],
+		"cities": ["Corelia"]
+	},
+	{
+		"name": "Khemul",
+		"adjective": ["Mercenary-Troll"],
+		"cityStateType": "Militaristic",
+		"style": "Troll",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Khemul is willing to serve you!",
+		"outerColor": [ 20, 20,20],
+		"innerColor": [255,178,72],
+		"cities": ["Khemul"]
+	},
+	{
+		"name": "Pid",
+		"adjective": ["Mercenary-Demonic"],
+		"cityStateType": "Militaristic",
+		"style": "Demonic",
+
+		"declaringWar": "After thorough deliberation, Pidians finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [ 20,20,20],
+		"innerColor": [153, 0,76],
+		"cities": ["Pid"]
+	},
+	{
+		"name": "Rackedt",
+		"adjective": ["Mercenary-Beast"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Traitorous man! The Rackedt peoples will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"outerColor": [ 20,20,20],
+		"innerColor": [255,69, 0],
+		"cities": ["Rackedt"]
+	},
+	{
+		"name": "Shaquad",
+		"adjective": ["Shaquadians"],
+		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Trapping]"],
+
+		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Shaquad!",
+		"defeated": "A lonely wind blows through the highlands today. A dirge for Shaquad. Can you hear it?",
+		"outerColor": [ 20,20,20],
+		"innerColor": [255,50,50],
+		"cities": ["Shaquad"]
+	},
+
+	{
+		"name": "Chorislavia",
+		"adjective": ["Chorislavia"],
+		"cityStateType": "Religious",
+		"style": "Elven",
+		"uniques": ["Starts with [Pottery]"],
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil. For god is with me!",
+		"defeated": "Why have you forsaken us my lord?",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [255,255,255],
+		"cities": ["Chorislavia"]
+	},
+	{
+		"name": "Gomorra",
+		"adjective": ["Gomorra"],
+		"cityStateType": "Religious",
+		"uniques": ["Starts with [Pottery]"],
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [203,253,232],
+		"cities": ["Gomorra"]
+	},
+	{
+		"name": "Zilla",
+		"adjective": ["Zilla"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "May god have mercy on your evil soul.",
+		"defeated": "I for one welcome our new conquer overlord!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [198,255,192],
+		"cities": ["Zilla"]
+	},
+
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0],
+		"style": "Barbarians",
+		"uniques": ["Can only heal by pillaging", "[{Melee} {Land}] units gain the [No Suicide] promotion", 
+			"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
+	}
+
+]
