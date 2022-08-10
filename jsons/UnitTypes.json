@@ -47,14 +47,14 @@
     {
         "name": "Hero",
         "movementType": "Land",
-        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+50]% Strength <vs [Water Terror] units>", 
-			"[+75]% Strength <vs [Air Terror] units>"]
+        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+33]% Strength <vs [Water Terror] units>", 
+			"[+50]% Strength <vs [Air Terror] units>", "[+100]% Strength <vs [Beast] units>"]
     },
 	{
         "name": "Siege Hero",
         "movementType": "Land",
-        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+15]% Strength <vs [Water Terror] units>", 
-			"[+25]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs cities> <when attacking>"]
+        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+10]% Strength <vs [Water Terror] units>", 
+			"[+15]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Beast] units>"]
     },
 	{
 		"name": "Airship",
@@ -65,9 +65,8 @@
         "name": "Vampire",
         "movementType": "Land",
         "uniques": ["[-100]% maintenance costs", "[-5] HP when healing", 
-			"[+100]% Strength <starting from the [Heroic age]>", "[+150]% Strength <starting from the [Mythic age]>", 
-			//"[+200]% Strength <starting from the [Chaos age]>"
-			]
+			"[+25]% Strength <starting from the [Renaissance age]>", "[+50]% Strength <starting from the [Industrial age]>", 
+			"[+215]% Strength <starting from the [Modern age]>"]
     },
 	{
 		"name": "Air Terror",
@@ -76,8 +75,17 @@
 			"All tiles cost 1 movement", "Eliminates combat penalty for attacking over a river"]
 	},
 	{
+        "name": "Mage",
+        "movementType": "Land"
+    },
+	{
         "name": "Monk",
         "movementType": "Land"
+    },
+	{
+        "name": "Construct",
+        "movementType": "Land",
+        "uniques": ["[+10]% Strength <when defending>", "Ignores Zone of Control"]
     },
     
 	// Water
@@ -88,8 +96,8 @@
 	{
         "name": "Melee Water Hero",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "[-100]% maintenance costs", "[+100]% Strength <when attacking> <vs [Water] units>", 
-			"Can see invisible [Water Terror] units"]
+        "uniques": ["Can enter ice tiles", "[-100]% maintenance costs", "[+66]% Strength <when attacking> <vs [Water Terror] units>", 
+			"Can see invisible [Water] units", "[+100]% Strength <vs [Beast] units>"]
     },
     {
         "name": "Ranged Water",
@@ -98,21 +106,30 @@
 	{
         "name": "Water Hero",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "[-100]% maintenance costs", "[+100]% Strength <when attacking> <vs [Water] units>", 
-			"Can see invisible [Water Terror] units"]
+        "uniques": ["Can enter ice tiles", "[-100]% maintenance costs", "[+66]% Strength <when attacking> <vs [Water Terror] units>", 
+			"Can see invisible [Water] units", "[+100]% Strength <vs [Beast] units>"]
     },
     {
         "name": "Water Terror",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Water Terror] units", 
-			"May heal outside of friendly territory"]
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Water Terror] units", "Can see invisible [Submarine] units", 
+			"[+33]% Strength <when attacking> <vs [Submarine] units>", "May heal outside of friendly territory"]
+    },
+	{
+        "name": "Submarine",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    },
+	{
+        "name": "Naval Carrier",
+        "movementType": "Water"
     },
     
 	//Air
 	{
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",

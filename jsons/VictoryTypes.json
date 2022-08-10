@@ -3,7 +3,7 @@
         "name": "Scientific",
         "victoryScreenHeader": "Complete all the elementallist and \nadd them to the Heavenly Nature to win!"
         "milestones": [
-            "Build [Elementallist Program]", "Add all [spaceship parts] in capital"
+            "Build [Elementalist Program]", "Add all [spaceship parts] in capital"
         ],
         "requiredSpaceshipParts": [
             "Earth Element", "Fire Element", "Wood Element", "Metal Element", "Water Element"

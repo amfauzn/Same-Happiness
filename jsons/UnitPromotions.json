@@ -5,6 +5,11 @@
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
 	},
+	{
+		"name": "Heal Instantly II",
+		"uniques": ["Heal this unit by [75] HP", "Doing so will consume this opportunity to choose a Promotion", "Only available <after discovering [Pharmaceuticals]>"],
+		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
+	},
 	
 	// Recon
 	{
@@ -58,48 +63,48 @@
 	{
 		"name": "Accuracy",
 		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	{
 		"name": "Barrage",
 		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	{
 		"name": "Marksman",
 		"prerequisites": ["Accuracy"],
 		"uniques": ["[+20]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	{
 		"name": "Cover",
 		"prerequisites": ["Barrage"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	{
 		"name": "Volley",
 		"prerequisites": ["Marksman","Cover"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	{
 		"name": "Damage Absorb",
 		"prerequisites": ["Marksman","Cover"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	{
 		"name": "Owl's Eye",
 		"prerequisites": ["Volley","Damage Absorb"],
 		"uniques": ["[+1] Sight", "[+1] Range"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	{
 		"name": "Indirect Fire",
 		"prerequisites": ["Owl's Eye"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery"]
+		"unitTypes": ["Archery","Mage"]
 	},
 	
 	// Siege+Siege Hero
@@ -152,38 +157,55 @@
 	
 	// Melee+Hero
 	{
+		"name": "Exposed Core",
+		"uniques": ["[+50]% Strength <when below [40] HP>"],
+		"unitTypes": ["Construct"]
+	},
+	{
 		"name": "Shock",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Construct"]
 	},
 	{
 		"name": "Drill",
 		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Construct"]
 	},
 	{
 		"name": "Battlecry",
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Sword","Gunpowder","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
 	},
 	{
 		"name": "Tortoise",
 		"prerequisites": ["Drill"],
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>", "[+25]% Strength <in [City center] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
 	},
 	{
 		"name": "Besiege",
 		"prerequisites": ["Battlecry","March"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
+	},
+	{
+		"name": "Assault Protocol",
+		"prerequisites": ["Battlecry","Auxiliary Core"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Construct"]
 	},
 	{
 		"name": "March",
 		"prerequisites": ["Tortoise","Besiege"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Gunpowder","Hero"]
+	},
+	{
+		"name": "Auxiliary Core",
+		"prerequisites": ["Tortoise","Assault Protocol"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Construct"]
 	},
 	{
 		"name": "Woodsman",
@@ -360,11 +382,11 @@
 		"name": "Amphibious",
 		"prerequisites": ["Battlecry","Tortoise"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Besiege","March","Thrust","Holding Spirit","Depredation","Reactive Armor","Frightening Vibe"],
+		"prerequisites": ["Besiege","March","Thrust","Holding Spirit","Depredation","Calming Amulet","Frightening Vibe"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Vampire"]
 	},
@@ -383,7 +405,7 @@
 	{
 		"name": "Teleportation",
 		"prerequisites": ["Woodsman","Flare",],
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory"],
+		"uniques": ["May Paradrop up to [15] tiles from inside friendly territory"],
 		"unitTypes": ["Siege Hero","Hero"]
 	},
 	
@@ -774,7 +796,7 @@
 		"uniques": ["May withdraw before melee ([66]%)"]
 	},
 	{
-		"name": "Fight Bark", // only for Mink and subsequent upgrades
+		"name": "Fight Bark", // only for Mink & Wolf Rider and their subsequent upgrades
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
@@ -799,6 +821,22 @@
 			"[+15]% Strength <when fighting in [Coastal] tiles>", "Normal vision when embarked", 
 			"Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", 
 			"[-20]% Strength <when fighting in [Desert] tiles>"]
+	},
+	{
+		"name": "Highly Trained", // Tomb Guard
+		"uniques": ["[+10]% Strength <when adjacent to a [{Melee} {Land}] unit>"/*, "[75]% XP gained from combat"*/]
+	},
+	{
+		"name": "Dominion Patrol", // Eldariya
+		"uniques": ["[+1] Movement <in [Friendly Land] tiles>", "[+1] Sight <in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Divine Right", // Divine Order
+		"uniques": ["Prevents spreading of religion to the city it is next to"]
+	},
+	{
+		"name": "Alchemist Horizon", // First Order
+		"uniques": ["Can construct [Matter Transmuter]"]
 	},
 	{
 		"name": "No Suicide", // Barbarians Melee Land

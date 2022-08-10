@@ -11,11 +11,11 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest","Man-eating tree"],
+		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
-		"uniques": ["Does not need removal of [Forest]", "[+1 Production] <after discovering [Pharmaceuticals]>"],
+		"uniques": ["[+1 Production] <after discovering [Steel]>"],
 		"shortcutKey": "L"
 	},
 	{
@@ -66,6 +66,13 @@
 	
 	// Resource-specific
 	{
+		"name": "Beacon of Power",
+		"turnsToBuild": 8,
+		"techRequired": "Mana Sensing",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+12 Gold]"],
+		"shortcutKey": "C"
+	},
+	{
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
@@ -74,10 +81,25 @@
 		"shortcutKey": "C"
 	},
 	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Refining",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", 
+					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "Refrigeration",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", 
+					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Trapping",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", 
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "[+1 Production] <after discovering [Computers]>", "Can only be built to improve a resource", 
 					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
@@ -104,7 +126,7 @@
 		"production": 1,
 		"techRequired": "Domestication",
 		"uniques": ["Does not need removal of [Forest]", "Does not need removal of [Jungle]", 
-					"[+1 Production, +1 Gold] <after discovering [Pharmaceuticals]>", 
+					"[+1 Production, +1 Gold] <after discovering [Archaeology]>", 
 					"Can only be built to improve a resource", 
 					"Pillaging this improvement yields approximately [+15 Gold]"],
 		"shortcutKey": "C"
@@ -124,12 +146,6 @@
 		"food": 3,
 		"uniques": ["Great Improvement", "[+2 Food] <after discovering [Fertilizer]>", "[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+15 Gold]"]
-	},
-	{
-		"name": "Altar",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
-		"faith": 1,
-		"uniques": ["Unpillagable", "Tile provides yield without assigned population"]
 	},
 
 	// Military improvement
@@ -233,7 +249,6 @@
 	{
 		"name": "Landmark",
 		"culture": 6,
-		"resourceTerrainAllow": ["Grassland","Plains","Tundra","Snow","Desert"],
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", "[+1 Culture] <after discovering [Architecture]>", 
 					"Removes removable features when built", 
@@ -243,7 +258,6 @@
 	{
 		"name": "Manufactory",
 		"production": 4,
-		"resourceTerrainAllow": ["Grassland","Plains","Tundra","Snow","Desert"],
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", "[+2 Production] <after discovering [Alchemy]>", 
 					"Removes removable features when built", 
@@ -253,7 +267,6 @@
 	{
 		"name": "Customs house",
 		"gold": 4,
-		"resourceTerrainAllow": ["Grassland","Plains","Tundra","Snow","Desert"],
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", "[+2 Gold] <after discovering [Economics]>", 
 					"Removes removable features when built", 
@@ -263,16 +276,13 @@
 	{
 		"name": "Holy site",
 		"faith": 6,
-		"resourceTerrainAllow": ["Grassland","Plains","Tundra","Snow","Desert"],
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", //"[+1 Faith] <after discovering [Cultivication]>", 
-					"Removes removable features when built", 
+		"uniques": ["Great Improvement", "Removes removable features when built", 
 					"[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+20 Faith]"]
 	},
 	{
 		"name": "Citadel",
-		"resourceTerrainAllow": ["Grassland","Plains","Tundra","Snow","Desert"],
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", 
 					"Adjacent enemy units ending their turn take [30] damage", 
@@ -296,14 +306,13 @@
 		"name": "Sacred Grove",
 		"uniqueTo": "Sulvana",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 1,
 		"food": 1,
 		"production": 1,
 		"culture": 3,
 		"uniques": ["Great Improvement", "[+2 Faith] <after discovering [Theology]>", 
 					"[+2 Culture] <after discovering [Acoustics]>", 
-					"[+2 Gold] <after discovering [Pharmaceuticals]>", 
-					//"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Sacred Path]>", 
+					"[+2 Gold] <after discovering [Scientific Theory]>", 
+					"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Empowerment]>", 
 					"Removes removable features when built", 
 					"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"]
 	},
@@ -327,7 +336,7 @@
 		"turnsToBuild": 7,
 		"uniques": ["[+2 Science] <after discovering [Astronomy]>",
 					"Pillaging this improvement yields approximately [+5 Gold, +5 Science]"],
-		"techRequired": "Calendar",
+		"techRequired": "Optics",
 		"shortcutKey": "F"
 	},
 	{
@@ -371,15 +380,37 @@
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [33]%"],
 		"shortcutKey": "C"
 	},
+	{
+		"name": "Blessed Farm",
+		"uniqueTo": "Louvargia",
+		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["[+1 Food] <after discovering [Civil Service]>", "[+1 Food] for each adjacent [Blessed Farm]"]
+	},
+	{
+		"name": "Matter Transmuter",
+		"uniqueTo": "First Order",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 2,
+		"science": 3,
+		"production": 2,
+		"uniques": ["Great Improvement",
+					"[+2 Gold] <after discovering [Economics]>", 
+					"[+3 Science] <after discovering [Scientific Theory]>"]
+	},
 
 	// Unbuildable improvements
 	{ 
 		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unbuildable", "Unpillagable"],
 		"civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{ 
 		"name": "City center", 
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unbuildable", "Unpillagable", "Irremovable"],
 		"civilopediaText": [
 			{"text":"Marks the center of a city"},
@@ -387,7 +418,8 @@
 		]
 	},
 	{ 
-		"name": "Barbarian encampment",
+		"name": "Barbarian encampment", // Dungeon
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unbuildable", "Unpillagable", "Provides a random bonus when entered"],
 		"civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time and grants a random bonus when cleared"}]
 	}

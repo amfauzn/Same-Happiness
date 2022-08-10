@@ -268,7 +268,7 @@
 		"unbuildable": true,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature", 
-					"Must be adjacent to [1] to [6] [Forest] tiles"
+					"Must be adjacent to [1] to [6] [Forest] tiles", 
 					"Units ending their turn on this terrain take [50] damage"]
 	},
 	{
@@ -298,12 +298,13 @@
 		"gold": 3,
 		"science": 2,
 		"overrideStats": true,
+		"movementCost": 3,
 		"occursOn": ["Ocean"],
 		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
 					"Must be adjacent to [6] [Water] tiles",
 					"Occurs in groups of [2] to [2] tiles"],
 		"turnsInto": "Coast",
-		"impassable": true,
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},

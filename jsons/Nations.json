@@ -4,55 +4,7 @@
 		"name": "Spectator",
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
-		
-		"uniqueText": "Tips to play: \nAlways turn Religion ON\n
-Clear dungeon as much as possible since they will give a random bonus when cleared.\n
-Build Mana Generator asap if you want to get your herous cheaper.\n\n
-Play as Almuria:\n
-Fight alongside Coast or water resources since it'll make Almuria units stronger, Search Megall as much as possible, Build Siren instead of Worker\n\n
-Play as Cavegoa:\n
-Build cities near water resources, Don't sleep Military units until fully healed since they'll lose Strength bonus, Use Worker or Inquisitor as Scout.\n\n
-Play as Erhab:\n
-Build Melee units as much as possible, especially Rakshasa, Be ally with City-State especially Militaristic.\n\n
-Play as Frostmorrow:\n
-Fokus on specialists, Frostmorrow is the only Civ with food-production specialists, Build lots Yeti when available\n\n
-Play as Malus:\n
-An Anti-Cavalry Civ, With all military (experience) building, Malus units can get 3 promotions immediately, Definitely Nas rival on hunting Barbarians\n\n
-Play as Marunesia:\n
-Wealthy water-based Civ, Zeal Galleass is strong middle age units that can enter Ocean faster than other Civ units, except Almuria\n\n
-Play as Morlovia:\n
-Build Dracula as much as possible since they'll get stronger every age, Build Vampire Castle near Great Improvement for maximum gains, especially near Holy Site to generate Faith to buy Dracula\n\n
-Play as Nas:\n
-Fokus on attacking Barbarians & use Laskar to dominate any Land\n\n
-Play as Niranna:\n
-Make Friend as much as possible, use Centaurs for hit and run unit\n\n
-Play as Polgar Spd'em:\n
-Fokus on building & building, get Scientific or Cultural vitory, buy every available non-Wonder building in Capital\n\n
-Play as Rain Forest:\n
-Build Threesed as fast as possible since it'll boost cities production (stronger than Lumber Mill effect), Hold Ranged units on Forest and shoot every enemy passing through\n\n
-Play as Red Moon:\n
-Fokus on Faith and Daggerman, Daggerman generate Great General 50% faster, which is give double Strength bonus\n\n
-Play as Smeheng:\n
-Tall and defensive Civ, perfect counter for Almuria and Dracula unit without Daywalker skill\n\n
-Play as Sulvana:\n
-Build near Fresh water & choose Divine Spark Belief for more Great Person generation boost, fokus on generate Maeron to construct Sacred Groove as much as possible\n\n
-Play as Thallin:\n
-As it name, Tall, relying on so long Golden Age for Cultural Victory\n\n
-Play as Thorin:\n
-Mounted Civ, fastest Civ on Land, with extra Sight for every Military Land unit, fokus warring it is\n\n
-Play as Torakj:\n
-Plunder Gold to maintain relationship with City-State, that is, as for Belief choose Defender of the Faith to protect allied City-State, or destroy it\n\n
-Play as Townfolk:\n
-Sulong's Training give happiness, happiness bring Golden Age, Golden Age boost unit Strength & Science output, when to war? of course during Golden Age\n\n
-Play as Twin Mountain:\n
-Claim Mountain as much as possible, not only it'll boost units Strength, it also generate Science, Gold, and Production when the time comes\n\n
-Play as Urg:\n
-War is after you create lots Dullahan and Fury, and since Skroths are fast, domination it must be\n\n
-Play as Vedic:\n
-Play calm, your Science power will shine from mid-to-last game, fill Scientist slot to get Great Scientist, expend it for quick research with +15 Science more, Science can be bought anyway\n\n
-		",
 	},
-	
 	
 	// Nations
 	{				
@@ -76,21 +28,53 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "What do YOU want?!",
 		"tradeRequest": "Let's work together and maintain peace between us.",
 				
-		"outerColor": [ 28,51,119],
+		"outerColor": [ 28, 51,119],
 		"innerColor": [255,255,255],
 		"uniqueName": "Preacher King",
-		"uniqueText": "100% chance to recruit a Barbarian unit from a conquered dungeon\n25% chance of capturing defeated Barbarian naval units\n-33% maintenance costs for Military Land and Water units",
-		"uniques": ["When conquering an encampment, earn [0] Gold and recruit a Barbarian unit <with [100]% chance>", 
-			"When defeating a [{Barbarian} {Water}] unit, earn [0] Gold and recruit it <with [25]% chance>", 
+		"uniqueText": "100% chance to recruit defeated enemy unique military units, including Barbarian's unique unit \n-25% maintenance costs for Military Land and Water units",
+		"uniques": ["When defeating a [Leviathan] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Hydra] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Rakshasa] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Yeti] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Elite Spearman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Zeal Galleass] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Dracula] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Ballista] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Laskar] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Centaurs] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Warhammer] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Entilon] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Daggerman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Realm Patrol] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Alessia] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Kalsharin] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Wolf Rider] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Orc] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Mink] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Axeman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Skeleton Warrior] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Dullahan] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Homunculus] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Brute] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Galley] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Hunter] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Marauder] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Pillager] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 			"[-33]% maintenance costs <for [{Military} {Land}] units>", 
 			"[-33]% maintenance costs <for [Water] units>"],
 		"cities": ["Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna","Palebon","Metesech",
-			"Jaragar","Erech","Arbela","Gandariya"]
+			"Jaragar","Erech","Arbela","Gandariya"],
+		"civilopediaText": [
+			{"text":"Nas is a human civilization, led by Galamar III. During the campaign to unite the North Pangaea, He is betrayed his adopted brother, Thorin."},
+			{"text":"Tips to play:"},
+			{"text":"Your best bet is to attack as many unique unit as possible, especially Dracula which has increased Strenth every age."},
+			{"text":"Besides, Laskar is very strong against Melee units."}
+        ]
 	},
 	
 	{
 		"name": "Thorin",
-		"leaderName": "Valadorn I",
+		"leaderName": "Valadorn",
 		"adjective": ["Thorian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
@@ -110,20 +94,26 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"tradeRequest": "Let us do business! Would you be interested?",
 				
 		"outerColor": [255,184,33]
-		"innerColor": [153,5,3],
+		"innerColor": [153,  5, 3],
 		"uniqueName": "Tracker Legion",
 		"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Land}] units>", 
 			"[+1] Movement <for [{Military} {Land}] units> <when at war>", "Normal vision when embarked <for [{Military} {Land}] units>"],
 		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
-			"Lörissa","Joho Lor","Temwan","Sobayan","Senden"]
+			"Lörissa","Joho Lor","Temwan","Sobayan","Senden"],
+		"civilopediaText": [
+			{"text":"Thorin is a human civilization, led by Valadorn. Realising the God's whisper, he track his sworn brother to end his madness."},
+			{"text":"Tips to play:"},
+			{"text":"Mounted Civ, fastest Civ on Land, with extra Sight for every Military Land unit, fokus warring it is."},
+			{"text":"Thorin can scout map faster than any other civilization."}
+        ]
 	},
 	
 	{
 		"name": "Malus",
-		"leaderName": "Barret Burritö",
+		"leaderName": "Barret Barrtö",
 		"adjective": ["Malusian"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Scientific",
+		//"preferredVictoryType": "Scientific",
 		"favoredReligion": "Butterfly Effects",
 		"style": "Human",
 		
@@ -140,12 +130,18 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"tradeRequest": "My friend, do you think you can accept this request?",
 		
 		"outerColor": [146,221,9],
-		"innerColor": [0,0,9],
+		"innerColor": [  0,  0,9],
 		"uniqueName": "Experience is the Best Teacher",
 		"uniques": ["[Great Scientist] is earned [50]% faster", "[+2 Science] from every [Great Improvement]", 
 			"Earn [10]% of killed [Barbarian] unit's [Cost] as [Science]"],
 		"cities": ["Målusaö","Mlese","Tegålruö","Wanrådjö","Böran","Jåpanöan","Khujön","Böwan Pök","Trösö","Watese",
-			"Wetön","Bönusö","Låiden Hill","Tlulaö","Sudd Garden"]
+			"Wetön","Bönusö","Låiden Hill","Tlulaö","Sudd Garden"],
+		"civilopediaText": [
+			{"text":"Malus is a human civilization, led by Malus. Malus is the only kingdom who can defend against Galamar's conquest."},
+			{"text":"Tips to play:"},
+			{"text":"An Anti-Cavalry Civ, With all military (experience) building, Malus units can get 3 promotions immediately."},
+			{"text":"Focus on attacking Barbarians."}
+        ]
 	},
 	
 	{
@@ -169,12 +165,17 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 		
-		"outerColor": [35,35,35],
+		"outerColor": [ 35, 35, 35],
 		"innerColor": [246,205,137],
 		"uniqueName": "Heaven's Fury",
-		"uniqueText": "Units fight as though they were at full strength even when damaged\nStarting from the Feudal age, gain a Free Fury from every age\nGain 3 additional Fury during the Feudal age",
+		"uniqueText": "Units fight as though they were at full strength even when damaged\nStarting from the Renaissance age, gain a Free Fury from every age\nGain 3 additional Fury during the Feudal age",
 		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>", "\"Borrows\" city names from other civilizations in the game"],
-		"cities": ["Tugu","Luxor","Karnak","Oryx"]
+		"cities": ["Tugu","Luxor","Karnak","Oryx"],
+		"civilopediaText": [
+			{"text":"Urg is a demonic civilization, led by Saeth. Through the power of Ancient Citadel, Saeth may launch one-hit-kill attack on Land enemies."},
+			{"text":"Tips to play:"},
+			{"text":"War is after you create lots Dullahan and Fury, and since Skroths are fast, domination it must be."}
+        ]
 	},
 	
 	{
@@ -198,12 +199,18 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"tradeRequest": "Your goods seems good, why don't we help each other?",
 		
 		"outerColor": [228,208,43],
-		"innerColor": [0,0,0],
+		"innerColor": [  0,  0, 0],
 		"uniqueName": "Arrow of the West",
 		"uniqueText": "+10% great person generation in all cities\nGreat Artist generated by Sulvana become the Maeron, which can create the Sacred Grove",
 		"uniques": ["[+10]% great person generation in all cities"], 
 		"cities": ["Blathanna","Asylla","Izapa","Kutha","Herakleia","Xinta","Emnha","Lanchasia","Tula","Chitta","Ostia","Aquileia","Adria",
-			"Santana","Prassia"]
+			"Santana","Prassia"],
+		"civilopediaText": [
+			{"text":"Sulvana is an elven civilization, led by Lulla. Sulvana is the definition of old races of elven, they favor tradition."},
+			{"text":"Tips to play:"},
+			{"text":"Build cities near Fresh water & choose Divine Spark Belief for more Great Person generation boost."},
+			{"text":"Fokus on generate Maeron to construct Sacred Groove as much as possible"}
+        ]
 	},
 	
 	{
@@ -228,12 +235,18 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"tradeRequest": "Let's help each other for better life.",
 		
 		"outerColor": [255,255,78],
-		"innerColor": [70, 0, 4],
+		"innerColor": [ 70,  0, 4],
 		"uniqueName": "Peace upon All",
 		"uniques": ["City-State Influence recovers at twice the normal rate", "Science gained from research agreements [+33]%", 
 			"When declaring friendship, both parties gain a [10]% boost to great person generation"],
 		"cities": ["Possadha","Sikaiana","Nuguria","Uvea","Java","Javabazha","Takhada","Tea","Heava","Rindhanna",
-			"Icha","Archana","Na Nirwana","Nuallazea","Zazhua"]
+			"Icha","Archana","Na Nirwana","Nuallazea","Zazhua"],
+		"civilopediaText": [
+			{"text":"Niranna is an elven civilization, led by Nualla. Niranna is the definition of a more open relationship of elven, they favor diplomation."},
+			{"text":"Tips to play:"},
+			{"text":"Make Friend as much as possible, and sign research agreements."},
+			{"text":"Use Centaurs for hit and run unit."}
+        ]
 	},
 	
 	{
@@ -256,22 +269,28 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "What do you need?!",
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
 		
-		"outerColor": [153,5,3],
+		"outerColor": [153,  5,  3],
 		"innerColor": [255,255,255],
 		"uniqueName": "Infinite Power",
 		"uniques": ["Great General provides double combat bonus", "[+50]% [Faith] from City-States", 
 			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", 
 			"Starts with [Piety] adopted"],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
-			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"]
+			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"],
+		"civilopediaText": [
+			{"text":"Red Moon is a witches civilization, led by Claudia. Red Moon posses infinite power and infinite faith."},
+			{"text":"Tips to play:"},
+			{"text":"Fokus on Faith and Daggerman."},
+			{"text":"Daggerman generate Great General 50% faster, which is give double Strength bonus"}
+        ]
 	},
 	
 	{
 		"name": "Twin Mountain",
 		"leaderName": "Thraldin",
 		"adjective": ["Dwarven"],
-		//"startBias":["Mountain"],
-		"preferredVictoryType": "Scientific",
+		"startBias":["Mountain"],
+		//"preferredVictoryType": "Scientific",
 		"favoredReligion": "Butterfly Effects",
 		"style": "Dwarven",
 		
@@ -287,19 +306,24 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "What do you want?",
 		"tradeRequest": "I offer this, for your consideration.",
 		
-		"outerColor": [27,53,63]
+		"outerColor": [ 27, 53, 63]
 		"innerColor": [213,249,255],
 		"uniqueName": "Shield of the Mountain",
 		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
 			"Units ending their turn on [Mountain] tiles take [15] damage"],
 		"cities": ["Thraldin's Palace","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
-			"Circle Cliff","Darken Crest","Cremona","Red Ice","Tiltein","Vennelin","Drumlen"]
+			"Circle Cliff","Darken Crest","Cremona","Red Ice","Tiltein","Vennelin","Drumlen"],
+		"civilopediaText": [
+			{"text":"Twin Mountain is a dwarven civilization, led by Thraldin. Mountains is heaven for them."},
+			{"text":"Tips to play:"},
+			{"text":"Claim Mountain as much as possible, not only it'll boost units Strength, it also generate Science, Gold, and Production when the time comes."}
+        ]
 	},
 	
 	{
 		"name": "Polgar Sod'em",
 		"leaderName": "Hajruddin",
-		"adjective": ["Dwarvem"],
+		"adjective": ["Dwarven"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Relativity",
@@ -317,14 +341,20 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "Well?",
 		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
 		
-		"outerColor": [37,56,123],
-		"innerColor": [255,46,46],
+		"outerColor": [ 37,56,123],
+		"innerColor": [255,46, 46],
 		"uniqueName": "Master Builder",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
 			"[+15]% Production towards any buildings that already exist in the Capital", 
 			"[+1 Production] from every [Strategic resource]"],
 		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panema Caniem",
-			"Petra","Redemeer","Picchu","Angkoreen","Mozi","Fez","Balkh"]
+			"Petra","Redemeer","Picchu","Angkoreen","Mozi","Fez","Balkh"],
+		"civilopediaText": [
+			{"text":"Polgar Sod'em is a dwarven civilization, led by Hajruddin. As dwarfs, they can build an unimaginable monuments."},
+			{"text":"Tips to play:"},
+			{"text":"Fokus on building & building, buy every available non-Wonder building in Capital."},
+			{"text":"Aim for Scientific or Cultural vitory."}
+        ]
 	},
 	
 	{
@@ -332,7 +362,7 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"leaderName": "Jag'ar",
 		"adjective": ["Folks"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Scientific",
+		//"preferredVictoryType": "Scientific",
 		"favoredReligion": "Dualism",
 		
 		"startIntroPart1": "Welcome King Jag'ar, leader of the massacred civilization! Formed in the brink of extinction and forced slavery, you lead your people to reclaim what is rightfully yours. With the united of racial and historical similarities, you build your own country and now, slavery is no more.",
@@ -353,7 +383,13 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"uniques": ["[+50]% Golden Age length", "[+10]% Strength <for [All] units> <during a Golden Age>", 
 			"[+15]% [Science] <during a Golden Age>", "Gain a free [Sulong's Training] [in capital] <after discovering [Bronze Working]>"],
 		"cities": ["Townfolk","Lions","Tigers","Bears","Bulls","Wolves","Foxes","Gorillas","Leopards","Houston",
-			"Raccoons","Rhinocheroses","Warthogs","Orcas","Pandas","Piranhas"]
+			"Raccoons","Rhinocheroses","Warthogs","Orcas","Pandas","Piranhas"],
+		"civilopediaText": [
+			{"text":"Townfolk is a beastman civilization, led by Jag'ar. Townfolk is formed after the great massacre by human over beastman. During the brink of extinction, they learn the true meaning of Sulong."},
+			{"text":"Tips to play:"},
+			{"text":"Sulong's Training give happiness, happiness bring Golden Age, Golden Age boost unit Strength & Science output."},
+			{"text":"When to war? of course during Golden Age."}
+        ]
 	},
 	
 	{
@@ -376,13 +412,20 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "Leave me alone!",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
 		
-		"outerColor": [16,126,5],
+		"outerColor": [ 16,126,  5],
 		"innerColor": [134,238,214],
 		"uniqueName": "Survival Instinc",
 		"uniques": ["[+5] HP when healing <for [Wounded] units>", "[+10]% Strength <for [Wounded] units>", 
 			"[+10]% Strength <when below [50] HP> <when defending>", "[+1] Sight <for [Civilian] units>"],
 		"cities": ["Goa","Armant","Lisht","Chondote","Nedrow","Lawless","Pajaten","Skien","Crossy","Grassrich",
-			"Amphibeast","Stone Valley","Cattle","Shining Lake","Nomad River"]
+			"Amphibeast","Stone Valley","Cattle","Shining Lake","Nomad River"],
+		"civilopediaText": [
+			{"text":"Cavegoa is a beastman civilization, led by Borris Baldur. Formed after beastman civil war, which increase their survival instincs."},
+			{"text":"Tips to play:"}
+			{"text":"Build cities near water resources."},
+			{"text":"Don't sleep Military units until fully healed since they'll lose Strength bonus."},
+			{"text":"Use Worker or Inquisitor as Scout."}
+        ]
 	},
 	
 	{
@@ -413,7 +456,14 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 			"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
 			"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
 		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindschel","Agra","Sunda","Soulisa","Tuasika","Bula","Namlea",
-			"Gulbarga","Larantuka","Curia","Crastha"]
+			"Gulbarga","Larantuka","Curia","Crastha"],
+		"civilopediaText": [
+			{"text":"Rain Forest is a dryad civilization, led by Ridha. As the tree embodiment, they can't cut down Forest and/or build Lumber mill."},
+			{"text":"Tips to play:"}
+			{"text":"Build Threesed as fast as possible since it'll boost cities production (stronger than Lumber Mill effect)"},
+			{"text":"Place Ranged units on Forest and shoot every enemy passing through"},
+			{"text":"Use spare money to buy (or just conquer) cities with lots Lumber mill."}
+        ]
 	},
 	
 	{
@@ -436,13 +486,19 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "So, out with it!",
 		"tradeRequest": "It would be in your best interest, so carefully consider this proposal.",
 		
-		"outerColor": [12,75,25],
+		"outerColor": [ 12, 75, 25],
 		"innerColor": [255,255,255],
 		"uniqueName": "Justice League",
 		"uniques": ["[-25]% City-State Influence degradation", "City-State territory always counts as friendly territory",
-			"[+50]% [Food] from City-States", "[+50]% [Culture] from City-States"],
+			"[+50]% [Food] from City-States", "[+10]% Strength <for [non-air] units> <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Torakj","Mogrim","Gaul","Dade","Talu","Bullu","Bao","Kasel","Neuss","Herne","Bonn","Loyn","Wisbaden",
-			"Horkj","Skurkj"]
+			"Horkj","Skurkj"],
+		"civilopediaText": [
+			{"text":"Torakj is a goblin civilization, led by Anzogh. Famous as weak creature, they are very skilled at looting cities."},
+			{"text":"Tips to play:"}
+			{"text":"Plunder Gold to maintain relationship with City-State, that is."},
+			{"text":"As for Belief choose Defender of the Faith to protect allied City-State, or destroy it."}
+        ]
 	},
 	
 	{
@@ -467,12 +523,18 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
 		
 		"outerColor": [215,225,225],
-		"innerColor": [0, 0, 0],
+		"innerColor": [  0,  0,  0],
 		"uniqueName": "Blessed Winter",
 		"uniqueText": "-25% Culture cost of natural border growth in your first 4 cities\n-25% unhappiness from specialists in your first 4 cities\nReceive free Great Farmer when you discover Pottery",
-		"uniques": ["Provides a [~suka] in your first [4] cities for free", "Receive free [Great Farmer] when you discover [Pottery]"],
+		"uniques": ["Provides a [~suka] in your first [4] cities for free", "Receive free [Great Farmer] when you discover [Pottery]", 
+					"Receive free [Great Farmer] when you discover [Fertilizer]"],
 		"cities": ["Frostmorrow","Igos","Sandless","Noach","Maumere","Iver","Ykutz","Vladivostok","Smolensk","Orenburg",
-			"Bryansk","Kver","Murmansk","Irkutsk","Chita","Samara"]
+			"Bryansk","Kver","Murmansk","Irkutsk","Chita","Samara"],
+		"civilopediaText": [
+			{"text":"Tips to play:"}
+			{"text":"Fokus on specialists, Frostmorrow is the only Civ with food-production specialists"},
+			{"text":"Build lots Yeti when available, no Niter needed."}
+        ]
 	},
 	
 	{
@@ -496,13 +558,17 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "What do you want?",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
 		
-		"outerColor": [221, 141, 0],
-		"innerColor": [255, 244, 174],
+		"outerColor": [221,141,  0],
+		"innerColor": [255,244,174],
 		"uniqueName": "Sand Dweller",
 		"uniques": ["[+1 Food] from every [Flood plains]", "[+5]% Strength <when fighting in [Desert] tiles>", 
 			"[+10]% Strength <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
-			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir"]
+			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir"],
+		"civilopediaText": [
+			{"text":"Tips to play:"}
+			{"text":"Tall and defensive Civ, perfect counter for Almuria and Dracula unit without Daywalker skill."}
+        ]
 	},
 	
 	{
@@ -526,13 +592,18 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "Tell me, WHAT is your business here?",
 		"tradeRequest": "Please consider this offers, surely you won't be at loss.",
 		
-		"outerColor": [156, 197, 237],
-		"innerColor": [16, 25, 115],
+		"outerColor": [156,197,237],
+		"innerColor": [ 16, 25,115],
 		"uniqueName": "Tiger Trawl",
 		"uniques": ["[+2 Gold] from every [Water resource]", "Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
 			"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]"],
 		"cities": ["Regalia","Alion","Gatland","Burnei","Vinia","Sibisia","Codendia","Riverbed","Schoels Ridge","Magath Trench",
-			"Seamountea","Creef","Galesia","Aneka","Moresby","Palau"]
+			"Seamountea","Creef","Galesia","Aneka","Moresby","Palau"],
+		"civilopediaText": [
+			{"text":"Tips to play:"}
+			{"text":"Wealthy water-based Civ, Zeal Galleass is strong middle age units that can enter Ocean earlier than other Civ units, except Almuria."},
+			{"text":"Your best bet is construct Ulu Wae near Water resource and Land tiles, combined with Golden Anchor Statue Wonder."}
+        ]
 	},
 	
 	{
@@ -554,14 +625,20 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "What?",
 		"tradeRequest": "Nobody should say that I am an unjust ruler. Let's reach an agreement!",
 		
-		"outerColor": [55,25,8],
+		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Pure Bloodline",
 		"uniqueText": "Settler gained slower\n+2 Gold, -25% unhappiness from population in your first 4 cities\n+8 Culture, Gain a free Great Artist equivalent upon completion of Tradition policy Tree\n+33% Unhappiness from population in annexed cities",
 		"uniques": ["Provides a [Astana] in your first [4] cities for free", "[+33]% Unhappiness from [Population] [in annexed cities]"],
 		"cities": ["Clansperson","Getih","Kinsfolk","Consanguine","Sib","Grandeur","Cults","Claret","Clot","House Rules",
-			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"]
+			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"],
+		"civilopediaText": [
+			{"text":"Thallin is a human civilization, led by Sengai. They represent what is noble actually is, any land is controlled by their pure bloodline of nobles."},
+			{"text":"Tips to play:"}
+			{"text":"As it name, Tall, relying on so long Golden Age for Cultural Victory."}
+        ]
 	},
+	
 	{
 		"name": "Morlovia",
 		"leaderName": "Vlad Dracula",
@@ -582,16 +659,23 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"tradeRequest": "Accept these gifts—they are purified.",
 		
 		"outerColor": [254,204,32],
-		"innerColor": [0,55,106],
+		"innerColor": [  0,55,106],
 		"uniqueName": "Bloodlust",
 		"uniqueText": "Starting from the Feudal age, May buy Dracula units for 100 Faith in all cities at an increasing price 25\nDracula units become stronger from every age but start with -15 Experiece\nAll Military Land units Heals 15 damage if it kills a unit\nUpon discovering Chivalry, May construct 4 Vampire Castle with half of neighboring improvements stats, including Great improvements",
 		"uniques": ["May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
 			"Gain a free [Vampiric Block] [in capital] <after discovering [Chivalry]>", 
-			"[{Military} {Land}] units gain the [Vampiric Touch] promotion", 
+			"[{Military} {Land}] units gain the [Vampiric Touch] promotion",
 			"New [Dracula] units start with [-15] Experience [in all cities]", 
-			"Receive free [Dracula] when you discover [Philosophy]"],
+			"Receive free [Dracula] when you discover [Quintessence Force]"],
 		"cities": ["Transylvania","Varkola","Sanguins","Chupacabra","Vlokodla","Mormolykia","Abhartcia","Kravopiea","Llorona","Lampire",
-			"Dachnavar","Op'a","K'uei","Nuruanna","Zolla"]
+			"Dachnavar","Op'a","K'uei","Nuruanna","Zolla"],
+		"civilopediaText": [
+			{"text":"Morlovia is a home of vampire."},
+			{"text":"Tips to play:"}
+			{"text":"Build Dracula as much as possible since they'll get stronger every age."},
+			{"text":"Construct Vampire Castle near Great Improvement for maximum gains, especially near Holy Site to generate Faith to buy more Dracula."},
+			{"text":"Place Dracula in Coffin when healing."}
+        ]
 	},
 	
 	{
@@ -613,20 +697,26 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "Oh, an ant.",
 		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
 		
-		"outerColor": [40, 19, 2],
-		"innerColor": [229, 179, 57],
+		"outerColor": [ 40, 19, 2],
+		"innerColor": [229,179,57],
 		"uniqueName": "Mercenary Combatant",
 		"uniques": ["[+10]% Strength <for [Melee] units>", "No movement cost to pillage <for [Melee] units>", 
 			"Resting point for Influence with City-States is increased by [10]", "Gain [20] Influence with a [{Military} {Melee}] gift to a City-State"],
 		"cities": ["Og","Fomoran","Fachan","Fódla","Ravna","Angrboða","Farragus","Kapra","Khalefi","Odánu",
-			"Ogeass","‘Uj Anaq","Bomba","Kuafu","Pecas Ndah","Blačko"]
+			"Ogeass","‘Uj Anaq","Bomba","Kuafu","Pecas Ndah","Blačko"],
+		"civilopediaText": [
+			{"text":"Erhab is a giant civilization, led by Magnar. Giant never follow anyone except from their own races, but they are very likely helps other races for money and/or rum."},
+			{"text":"Tips to play:"}
+			{"text":"Build Melee units as much as possible, especially Rakshasa."},
+			{"text":"Be ally with City-State especially Militaristic, their melee unit gifts can be gifted to them back for more Influence."}
+        ]
 	},
 	
 	{
 		"name": "Vedic",
 		"leaderName": "Rumpleister Zeiwass",
 		"adjective": ["Gnome"],
-		"preferredVictoryType": "Scientific",
+		//"preferredVictoryType": "Scientific",
 		"favoredReligion": "Dualism",
 		
 		"startIntroPart1": "Especially in times of great changes, when new knowledge and new ways of being show great potential to change the way of life, society tries to arise based around the cultivation and protection of this secret, world-transforming knowledge. Honorable Zeiwass, with your limitless knowledge, you know all secrets, even the formulae to transmute base metals to gold.",
@@ -642,7 +732,7 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"tradeRequest": "Better hurry, I may change my mind.",
 		
 		"outerColor": [78,244,234],
-		"innerColor": [85,74,32],
+		"innerColor": [85, 74, 32],
 		"uniqueName": "Occult Research",
 		"uniqueText": "+15 Gold, +15 Science whenever a Great Person is expended\n-1 Production, +2 Gold from tiles of Any resource to be mined\nCan buy science with gold (max 10 science per city) after constructing Alchemical Society",
 		"uniques": ["[+15 Gold, +15 Science] whenever a Great Person is expended", "[-1 Production, +2 Gold] from [Iron] tiles [in all cities]", 
@@ -651,8 +741,14 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 			"[-1 Production, +2 Gold] from [Jade] tiles [in all cities]", "[-1 Production, +2 Gold] from [Salt] tiles [in all cities]", 
 			"[-1 Production, +2 Gold] from [Silver] tiles [in all cities]"],
 		"cities": ["Krimora","Moribar","Scoetel","Eywass","Zheyn","Mogush","Nomen","Jurdem","Gnash","Sarthkiri",
-			"Hakanan","Ley","Tilt Lines","Shandas","Remore","Neophyte"]
+			"Hakanan","Ley","Tilt Lines","Shandas","Remore","Neophyte"],
+		"civilopediaText": [
+			{"text":"Vedic is a gnome civilization, led by Zeiwass. Gnomes are smart creature that know lots secret, including alchemy."},
+			{"text":"Tips to play:"}
+			{"text":"Play calm, your Science power will shine from mid-to-last game, fill Scientist slot to get Great Scientist, expend it for quick research with +15 Science more, Science can be bought anyway."}
+        ]
 	},
+	
 	{
 		"name": "Almuria",
 		"leaderName": "Fala Vieya",
@@ -673,7 +769,7 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"hateHello": "You are like the muck that spreads around ships in calm waters.",
 		"tradeRequest": "Let us join our forces together and reap the rewards.",
 		
-		"outerColor": [0,43,11],
+		"outerColor": [0, 43, 11],
 		"innerColor": [0,242,189],
 		"uniqueName": "The Lost Continent",
 		"uniqueText": "Can embark and move over Coasts and Oceans immediately\nMilitary Land units become stronger when fighting in adjacent to Water tiles and become weaker when fighting in Desert\nEmbarked units can defend themselves",
@@ -683,7 +779,150 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 			"Double quantity of [Megall] produced", "[1] Movement point cost to embark <for [Siren] units>", 
 			"[1] Movement point cost to embark <for [Sword] units>"],
 		"cities": ["Lemuria","Atlantis","Agarthea","Avalonia","Erum","Kitezha","Kumari Kanda","Mu","Shangri-La","Lyonessa","Quivira","Buyana",
-			"Cantre'r Gwaelea","Cibola","Llys","Ys","Ogygia"]
+			"Cantre'r Gwaelea","Cibola","Llys","Ys","Ogygia"],
+		"civilopediaText": [
+			{"text":"Almuria is a merfolk civilization, led by Fala Vieya. Merfolk can live either on Land or in Water, but they can't tolerate scorching sun."},
+			{"text":"Tips to play:"}
+			{"text":"Fight alongside Coast or water resources since it'll make Almuria units stronger."},
+			{"text":"Search Megall as much as possible."},
+			{"text":"Build Siren instead of Worker."}
+        ]
+	},
+	
+	{
+		"name": "Dwargon",
+		"leaderName": "Almira",
+		"adjective": ["Dwarven"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Preformationism",
+		
+		"startIntroPart1": "Most majestic Queen Almira, the leader of the Dwarf of Dwargon! The nation of Dwargon has ushered onto new age owing to the late King, Higba. Now you succeeded the throne and all of its legacy. The mountainous land of Dwargon surely will brings forth advances and breakthroughs.",
+		"startIntroPart2": "Queen Almira, your brilliant mind isn't inferior to your late King. Will you continue upon his legacy and stand unchallenged like a mountain? Will you reach the top and protect the Dwarven's land? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You has transgessed our agenda, we won't let you have it your way!",
+		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [84, 43, 11],
+		"innerColor": [12,242,189],
+		"uniqueName": "Higba's Ingenuity",
+		"uniqueText": "+1 Production at every Era starting from Heroic Era for cities settled on Hill\nReceive free Orihalcum Golem after discovering Engineering",
+		"uniques": ["Receive free [Orihalcum Golem] when you discover [Engineering]", 
+					"Gain a free [Higba's Legacy] [in all cities] <in [Hill] tiles>"],
+		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
+			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
+		"civilopediaText": [
+			{"text":"Dwargon is a dwarfs civilization, led by Almira. Dwargonians are very skilled at mechanical construction and is the pioneer of mecha builder."},
+			{"text":"Tips to play:"}
+			{"text":"You want to settles your cities on Hill, especially next to Mountain."},
+			{"text":"Bring Orichalcum Golem to every battlefield."}
+        ]
+	},
+	
+	{
+		"name": "Eldariya",
+		"leaderName": "Phaeron Atun",
+		"adjective": ["Eldars"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Relativity",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [228,111,87],
+		"innerColor": [ 38, 41,80],
+		"uniqueName": "Buried Marvels",
+		"uniqueText": "+2 Culture, +1 Happiness from every World Wonder and another +2 Culture after discovering Archaeology\n+1 Culture from every National Wonder\n+50% Production when constructing the first World Wonder in a city.\n",
+		"uniques": ["[+2 Culture, +1 Happiness] from every [World Wonder]", "[+2 Culture] from every [World Wonder] <after discovering [Archaeology]>",
+					"[+1 Culture] from every [National Wonder]",
+					"[+50]% Production when constructing [World Wonder] wonders [in all cities]",
+					"[-50]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]"],
+		"cities": ["Phaeron's Seat","Ankhesefret","Isetnotanath","Khetamun","Nimaetef","Imhokhmet","Khaera","Seshetamen","Horemka","Ptoletep","Nakhtoptah","Tutatamen",
+			"Khutamun","Anlakhotep","Rahotef","Nebnebiankh","Sensedjem","Nebethis","Takhathap","Psuseramen","Hetecris","Nubkhecris"],
+		"civilopediaText": [
+			{"text":"."},
+        ]
+	},
+	
+	{
+		"name": "Louvargia",
+		"leaderName": "Grand Director Alexander",
+		"adjective": ["Louvargians"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Balance",
+		
+		"startIntroPart1": "Divine's Favour be upon you Alexander,the Grand Director of Louvargians! Long has it been your people lived upon this blessed land's mercy. Singing and chanting praise upon Her magnificent work that this cold and fertile land is. Hoping that She won't cast Her boons away from it.",
+		"startIntroPart2": "Revered Alexander, Louvargians rest upon your responsibility to the Great Mother. Will you keep the Mother's Grace upon this land? Will you lead your people to Prosperity? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "We won't let your arrogance upon Her divinity be permitted! And we will attain Her benevolence!",
+		"attacked": "Act of insolence against our Mother can't be tolerated! By our Mother's embrace that you shall pay the price!",
+		"defeated": "Mother, why hast thou forsaken us? How come the Motherland be a barren land of cold?",
+		"introduction": "Greetings strangers, I am Alexander, the Grand Director of Louvargia, come and feast with us! These are Her blessings of good harvest.",
+		
+		"neutralHello": "Divine's Favour be upon you, let us talk and feast upon Her yield!",
+		"hateHello": "We shall not tolerate disrespect towards our Mother. State your business or stay clear from our land!",
+		"tradeRequest": "With guidance from our Mother, we've come to arrange an agreement with you.",
+		
+		"outerColor": [237,216,184],
+		"innerColor": [  0, 54,255],
+		"uniqueName": "Her Biting's Embrace",
+		"uniqueText": "+1 Faith for every 'Farm' adjacent to Blessed Farm\nEvery Blessed Farm in Tundra provides +1 Gold, +1 Production",
+		"uniques": ["[+1 Faith] from every [Farm] <with [1] to [6] neighboring [Blessed Farm] tiles>", 
+					"[+1 Faith] from every [Terrace farm] <with [1] to [6] neighboring [Blessed Farm] tiles>", 
+					"[+1 Faith] from every [Blessed Farm] <with [1] to [6] neighboring [Blessed Farm] tiles>", 
+					"[+1 Gold, +1 Production] from every [Blessed Farm] <in [Tundra] tiles>"],
+		"cities": ["Louvar","Malovar","Orivar","Resivar","Amolivar","Luivar","Amanivar","Pialivar","Jalarivar","Valarivar","Urivar","Komivar",
+			"Luxuvar","Kurivar","Liqovar","Albuvar","Rasutovar"],
+		"civilopediaText": [
+			{"text":"."},
+        ]
+	},
+	
+	{
+		"name": "First Order",
+		"leaderName": "Archmagister Gloria",
+		"adjective": ["Acolytes"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Butterfly Effects",
+		
+		"startIntroPart1": "Glory upon the Order! Archmagister Gloria, your people always strive for knowledge, even the forbidden ones. Find and train new potentials between realms, by force if you must, Gloria the Truthseeker.",
+		"startIntroPart2": "O, Gloria, the Order relies upon your shoulder. Will you lead the Order into glory and praise? Can you create an era of enlightenment? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your uneducated people are insufferable. The Order will lead them better, the Order will guide them better. Wasted potentials are not to be allowed!",
+		"attacked": "I guess some people truly have only 3 braincells. Ah, who am I kidding, it's just you.",
+		"defeated": "No, you know nothing of what you've done! This won't be the last of us! Veritas vincit.",
+		"introduction": "Well met our astute guests. I assume you seek the Truth as well. Let us exchange knowledge of this world.",
+		
+		"neutralHello": "Ah, my most revered guest. What shall we speak about today?",
+		"hateHello": "Our secrets are not for the simple-minded. What do you seek?",
+		"tradeRequest": "The Order demands for your fiscal cooperation yet again!",
+		
+		"outerColor": [237,197,82],
+		"innerColor": [186, 60, 3],
+		"uniqueName": "Magnum Opus",
+		"uniques": ["Gain a free [Porta Alchemica] [in capital] <after discovering [Mathematics]>", "[+2 Science, +2 Production] from every [Porta Alchemica]", 
+					 "Receive free [Alchemist] when you discover [Alchemy]", "[Great Scientist] units gain the [Alchemist Horizon] promotion"], 
+		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
+			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
+		"civilopediaText": [
+			{"text":"."},
+        ]
 	},
 	
 	// City-States
@@ -1009,8 +1248,8 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"innerColor": [198,255,192],
 		"cities": ["Zilla"]
 	},
-
-
+	
+	
 	//Barbarian
 	{
 		"name": "Barbarians",
@@ -1020,5 +1259,4 @@ Play calm, your Science power will shine from mid-to-last game, fill Scientist s
 		"uniques": ["Can only heal by pillaging", "[{Melee} {Land}] units gain the [No Suicide] promotion", 
 			"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
 	}
-
 ]
