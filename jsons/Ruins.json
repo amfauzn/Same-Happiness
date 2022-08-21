@@ -105,13 +105,13 @@
     },
 	{
         "name": "discover a portion of technology",
-        "notification": "We have discovered a portion of advanced technology! (+100 science)",
+        "notification": "We have discovered a portion of advanced technology! (+50 science)",
         "uniques": ["Gain [50] [Science]", "Only available after [10] turns"],
 		"color": "#7f7fff"
     },
 	{
         "name": "stolen technology",
-        "notification": "We succesfully take control of stolen technology! (Free Technology)",
+        "notification": "We succesfully take control of stolen technology! (+100 Science)",
         "uniques": ["Gain [100] [Science]", "Only available after [40] turns"],
 		"color": "#7f7fff"
     },

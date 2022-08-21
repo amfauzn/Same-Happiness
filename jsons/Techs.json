@@ -77,7 +77,7 @@
 				"cost": 45,
 				"row": 7,
 				"prerequisites": ["Agriculture"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+				"quote": "'May the forces of evil become confused while your arrow is on its way to the target.' - George Carlin"
 			},
 			{
 				"name": "Masonry",
@@ -165,7 +165,7 @@
 				"name": "Arcane Magic",
 				"row": 6,
 				"prerequisites": ["Mana Sensing"],
-				"quote": " "
+				"quote": "'One man's 'magic' is another man's engineering.' - Robert Heinlein"
 			},
 			{
 				"name": "Mathematics",
@@ -205,7 +205,7 @@
 				"name": "Wizardry",
 				"row": 6,
 				"prerequisites": ["Arcane Magic"],
-				"quote": " "
+				"quote": "'We are all apprentices in a craft where no one ever becomes a master.' - Malory"
 			},
 			{
 				"name": "Currency",
@@ -259,7 +259,7 @@
 				"name": "Quintessence Force",
 				"row": 6,
 				"prerequisites": ["Wizardry","Currency"],
-				"quote": " "
+				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
 			},
 			{
 				"name": "Guilds",
@@ -315,7 +315,7 @@
 				"row": 5,
 				"uniques": ["[+33]% Strength for cities <when defending> <vs [Mage] units>"],
 				"prerequisites": ["Chivalry","Quintessence Force"],
-				"quote": " "
+				"quote": "'No, my friends, we have not fallen back upon the erath' - Julius Verne"
 			},
 			{
 				"name": "Loans and Saving",
@@ -354,7 +354,7 @@
 				"name": "Enlightenment",
 				"row": 5,
 				"prerequisites": ["Magic Negation","Loans and Saving"],
-				"quote": " "
+				"quote": "'It ascends from the earth to the heaven, and it again descends to the earth and receives the force of things superior and inferior.' - Hermes Trismegistus"
 			},
 			{
 				"name": "Economics",
@@ -427,13 +427,13 @@
 				"name": "Mana Channelling",
 				"row": 5,
 				"prerequisites": ["Enlightenment","Scientific Theory"],
-				"quote": " "
+				"quote": "'Is it a fact - or have I dreamt it - the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
 			},
 			{
 				"name": "Magic Industrialization",
 				"row": 6,
 				"prerequisites": ["Economics"],
-				"quote": " "
+				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
 				"name": "Dynamite",
@@ -466,24 +466,25 @@
 				"name": "Empowerment",
 				"row": 4,
 				"prerequisites": ["Mana Channelling"],
-				"quote": " "
+				"quote": "'Technology is the foundation of the empowerment economy.' - Elise Stefanik"
 			},
 			{
 				"name": "Mana Battery",
 				"row": 5,
+				"uniques": ["[+200]% Strength <for [The Heroes] units>"],
 				"prerequisites": ["Mana Channelling","Magic Industrialization"],
-				"quote": " "
+				"quote": "I think of the sun of as my battery, my charger.' - Alexis Ren"
 			},
 			{
 				"name": "Refining",
 				"row": 7,
 				"prerequisites": ["Magic Industrialization","Dynamite"],
-				"quote": " "
+				"quote": "'Engineering is the art of directing the great sources of power in nature for the use and convenience of man.' - Thomas Tredgold"
 			},
 			{
 				"name": "Railroads",
 				"row": 8,
-				"prerequisites": ["Dynamite"],
+				"prerequisites": ["Dynamite","Rifling"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
 		]
@@ -497,13 +498,13 @@
 		"techs": [
 			{
 				"name": "Refrigeration",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Biology"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
 				"name": "Replaceable Parts",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Empowerment"],
 				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
@@ -530,7 +531,7 @@
 		"techs": [
 			{
 				"name": "Pharmaceuticals",
-				"row": 2,
+				"row": 3,
 				"uniques": ["Unlock better quick healing skill"],
 				"prerequisites": ["Refrigeration"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
@@ -564,7 +565,7 @@
 		"techs": [
 			{
 				"name": "Ecology",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Pharmaceuticals"],
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
@@ -582,13 +583,13 @@
 			},
 			{
 				"name": "Lasers",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Computers"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			},
 			{
 				"name": "Bionic Physiology",
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["Computers","Combined Arms"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			}
@@ -603,7 +604,7 @@
 		"techs": [
 			{
 				"name": "Teleportation",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Ecology"],
 				"quote": " "
 			},
@@ -616,7 +617,7 @@
 			{
 			
 				"name": "Foresighting",
-				"row": 8,
+				"row": 7,
 				"uniques": ["Reveals the entire map"],
 				"prerequisites": ["Lasers","Bionic Physiology"],
 				"quote": "'It is obvious that while science is struggling to bring Heaven to Earth some men are using its materials in the construction of Hell.' - Herbert Hoover"
@@ -632,8 +633,8 @@
 		"techs": [
 			{
 				"name": "Future tech",
-				"row": 6,
-				"prerequisites": ["Teleportation","Ballistics","Foresighting"],
+				"row": 5,
+				"prerequisites": ["Teleportation","Advanced Ballistics","Foresighting"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
 				"quote": "¡¡For how many hour you have been playing??"
 			}

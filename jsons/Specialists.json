@@ -34,7 +34,7 @@
 		"science": 2,
 		"gold": 2,
 		"production": 2,
-		"greatPersonPoints": {"Great Scientist": 2},
+		"greatPersonPoints": {"Great Scientist": 3},
 		"color": [240,230,140]
 	},
 ]

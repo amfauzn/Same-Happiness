@@ -309,6 +309,7 @@
 		"food": 1,
 		"production": 1,
 		"culture": 3,
+		"faith": 1,
 		"uniques": ["Great Improvement", "[+2 Faith] <after discovering [Theology]>", 
 					"[+2 Culture] <after discovering [Acoustics]>", 
 					"[+2 Gold] <after discovering [Scientific Theory]>", 
@@ -323,10 +324,12 @@
 		"gold": 1,
 		"techRequired": "Sailing",
 		"uniques": ["[+1 Gold] for each adjacent [Land]", 
-					"[+1 Gold] for each adjacent [Water resource]", 
-					"Cannot be built on [Bonus resource] tiles", 
-					"Cannot be built on [Luxury resource] tiles",
-					"Pillaging this improvement yields approximately [+8 Gold]"]
+					"[+1 Food, +1 Gold] for each adjacent [Water resource]", 
+					"Cannot be built on [Coast] tiles <with [1] to [6] neighboring [Ulu Wae] tiles>", 
+					"Pillaging this improvement yields approximately [+8 Gold]"],
+		"civilopediaText": [
+            {"text":"Ulu Wae can not be built next to each other."}
+        ]
 	},
 	{
 		"name": "Observatory",
@@ -337,22 +340,27 @@
 		"uniques": ["[+2 Science] <after discovering [Astronomy]>",
 					"Pillaging this improvement yields approximately [+5 Gold, +5 Science]"],
 		"techRequired": "Optics",
-		"shortcutKey": "F"
+		"shortcutKey": "F",
+		"civilopediaText": [
+            {"text":"While Observatory is safe from any pillaging during early game, it's better guard this improvement from the invasion of Golems."}
+        ]
 	},
 	{
 		"name": "Dhab Hunter Camp",
 		"uniqueTo": "Smeheng",
 		"terrainsCanBeBuiltOn": ["Desert"],
-		"food": 1,
+		"food": 2,
 		"culture": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Engineering",
-		"uniques": ["[+1 Food] for each adjacent [Oasis]", 
-					"[+1 Culture] <with [1] to [6] neighboring [Mine] tiles>", 
-					"Cannot be built on [Hill] tiles", 
-					"Cannot be built on [Luxury resource] tiles",
+		"uniques": ["[+2 Culture] <after discovering [Acoustics]>", 
+					"Cannot be built on [Desert] tiles <with [0] to [0] neighboring [Oasis] tiles>", 
+					"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>", 
 					"Pillaging this improvement yields approximately [+8 Gold]"],
-		"shortcutKey": "C"
+		"shortcutKey": "C",
+		"civilopediaText": [
+            {"text":"Dhab Hunter Camp can only be built next to Oasis and can not be be built next to each other."}
+        ]
 	},
 	{
 		"name": "Vampire Castle",
@@ -397,8 +405,36 @@
 		"science": 3,
 		"production": 2,
 		"uniques": ["Great Improvement",
+					"Removes removable features when built", 
 					"[+2 Gold] <after discovering [Economics]>", 
 					"[+3 Science] <after discovering [Scientific Theory]>"]
+	},
+	{
+		"name": "Meka-Monastery",
+		"uniqueTo": "Machinia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 2,
+		"faith": 4,
+		"uniques": ["Great Improvement",
+					"[+2 Gold, +3 Culture, +1 Faith] <after adopting [Piety Complete]>",
+					"[+2 Science, +2 Production, +1 Faith] <after adopting [Rationalism Complete]>"],
+		"civilopediaText": [
+            {"text":"Either Piety or Rationalism grants additional bonus for this improvement."}
+        ]
+	},
+	{
+		"name": "Kyber Foundry",
+		"uniqueTo": "Machinia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 3,
+		"production": 2,
+		"faith": 1,
+		"uniques": ["Great Improvement", 
+					"[+2 Gold, +3 Culture, +1 Faith] <after adopting [Piety Complete]>",
+					"[+2 Science, +2 Production, +1 Faith] <after adopting [Rationalism Complete]>"],
+		"civilopediaText": [
+            {"text":"Either Piety or Rationalism grants additional bonus for this improvement."}
+        ]
 	},
 
 	// Unbuildable improvements

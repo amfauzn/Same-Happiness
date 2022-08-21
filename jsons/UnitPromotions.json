@@ -3,12 +3,12 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
+		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Submarine","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
 	},
 	{
 		"name": "Heal Instantly II",
 		"uniques": ["Heal this unit by [75] HP", "Doing so will consume this opportunity to choose a Promotion", "Only available <after discovering [Pharmaceuticals]>"],
-		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
+		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Submarine","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
 	},
 	
 	// Recon
@@ -780,31 +780,31 @@
 		"uniques": ["[+1] Movement <in [Snow] tiles>", "[+10]% Strength <in [Snow] tiles>"]
 	},
 	{
-		"name": "Fire Breath", // only for Dragon
+		"name": "Fire Breath", // Dragon
 		"uniques": ["[+10]% Strength <when attacking>"]
 	},
 	{
-		"name": "Ignore terrain cost", // only for Unicorn
+		"name": "Ignore terrain cost", // Unicorn
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
-		"name": "Quick Study", // only for Kalsharin and subsequent upgrades
+		"name": "Quick Study", // Kalsharin
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
-		"name": "Reactive Armor", // only for Kalsharin and subsequent upgrades
+		"name": "Reactive Armor", // Kalsharin
 		"uniques": ["May withdraw before melee ([66]%)"]
 	},
 	{
-		"name": "Fight Bark", // only for Mink & Wolf Rider and their subsequent upgrades
+		"name": "Fight Bark", // Mink & Wolf Rider
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
-		"name": "[Entilon] ability",
+		"name": "[Entilon] ability", // Entilon
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
 	},
 	{
-		"name": "Skating", // only for Yeti and subsequent upgrades
+		"name": "Skating", // Yeti
 		"uniques": ["Double movement in [Snow]"]
 	},
 	{
@@ -837,6 +837,10 @@
 	{
 		"name": "Alchemist Horizon", // First Order
 		"uniques": ["Can construct [Matter Transmuter]"]
+	},
+	{
+		"name": "Regenerative Bio-Steel", // Iron Templar
+		"uniques": ["[+10] HP when healing", "[+25]% Strength <when defending>"]
 	},
 	{
 		"name": "No Suicide", // Barbarians Melee Land

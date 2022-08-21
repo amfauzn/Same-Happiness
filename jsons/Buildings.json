@@ -193,7 +193,7 @@
 		"uniqueTo": "Marunesia",
 		"happiness": 1,
 		"cost": 1,
-		"requiredNearbyImprovedResources": ["Fish","Crab","Lobster","Pearls","Whales"],
+		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whales"],
 		"uniques": ["Will not be displayed in Civilopedia"],
 		"requiredTech": "Optics"
 	},
@@ -430,7 +430,7 @@
 		"name": "Academy of Magic",
 		"maintenance": 0,
 		"hurryCostModifier": 30,
-		"uniques": ["Provides [2] [Magician]"],
+		"uniques": ["Provides [1] [Magician]"],
 		"requiredTech": "Arcane Magic",
 		"civilopediaText": [
             {"text":"Every great magician is a product of their mentor's best training."}
@@ -1453,6 +1453,7 @@
 					"May buy [Gaius Duilius] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
 					"May buy [Themistocles] units for [300] [Faith] [in all cities] at an increasing price ([100])"],
 		"replacementTextForUniques": "May buy 2 additional Hero, Unlock All Heroes",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 		"requiredTech": "Machinery"
 	},
 	{
@@ -1600,11 +1601,19 @@
 		"uniqueTo": "Urg",
 		"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Only available <starting from the [Modern age]> <in cities with a [Palace]>", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Pre-Modern age]> <in cities with a [Palace]>", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Free Fury5",
+		"uniqueTo": "Urg",
+		"cost": 1,
+		"cityHealth": 1,
+		"uniques": ["Only available <starting from the [Modern age]> <in cities with a [Palace]>", "Free [Fury] appears", 
+					"Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Free Fury6",
 		"uniqueTo": "Urg",
 		"cost": 1,
 		"cityHealth": 1,
@@ -1688,11 +1697,10 @@
 		"cost": 1,
 		"uniques": ["Unbuildable", "Unsellable", "Must be on [Hill]", "Will not be displayed in Civilopedia",
 					"Destroyed when the city is captured", "Cannot be purchased",
+					"[+1 Production] [in this city] <starting from the [Classical age]>",
 					"[+1 Production] [in this city] <starting from the [Heroic age]>",
-					"[+1 Production] [in this city] <starting from the [Feudal age]>",
 					"[+1 Production] [in this city] <starting from the [Renaissance age]>",
-					"[+1 Production] [in this city] <starting from the [Industrial age]>",
-					"[+1 Production] [in this city] <starting from the [Modern age]>",
+					"[+1 Production] [in this city] <starting from the [Pre-Modern age]>",
 					"[+1 Production] [in this city] <starting from the [Future age]>"]
 	},
 ]

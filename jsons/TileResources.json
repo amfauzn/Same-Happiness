@@ -138,7 +138,7 @@
 	{
 		"name": "Magician",
 		"resourceType": "Strategic",
-		"revealedBy": "Alchemy",
+		"revealedBy": "Enlightenment",
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{

@@ -423,6 +423,22 @@
 	
 	// Heroic age
 	{
+		"name": "Divine Order",
+		"unitType": "Sword",
+		"uniqueTo": "Louvargia",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 80,
+		"requiredTech": "Theology",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		//"requiredResource": "Iron",
+		"promotions": ["Divine Right","Sentry"],
+		"uniques": ["Can [Remove Foreign religions from your own cities] [3] times"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Priest",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -540,22 +556,6 @@
 		"promotions": ["Highly Trained"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Divine Order",
-		"unitType": "Sword",
-		"uniqueTo": "Louvargia",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 14,
-		"cost": 80,
-		"requiredTech": "Theology",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		//"requiredResource": "Iron",
-		"promotions": ["Divine Right","Sentry"],
-		"uniques": ["Can [Remove Foreign religions from your own cities] [3] times"],
-		"attackSound": "metalhit"
 	},
 	{
 		"name": "Pikeman",
@@ -879,6 +879,21 @@
 		"civilopediaText": [
 			{"text": "Giant unit with faster move and improved might on Open terrain."}
 		]
+	},
+	{
+		"name": "Iron Templar",
+		"unitType": "Sword",
+		"uniqueTo": "Machinia",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 25,
+		"cost": 135,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Dynamite",
+		"requiredResource": "Iron",
+		"promotions": ["Regenerative Bio-Steel"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Caravel",
@@ -1520,7 +1535,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Anti-Air Gun",
+		"name": "Anti-Air Crew",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"interceptRange": 2,
@@ -1757,7 +1772,7 @@
 		"strength": 25,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1765,10 +1780,10 @@
 		"name": "Ken Arok",
 		"unitType": "Hero", // Armored
 		"movement": 2,
-		"strength": 25,
+		"strength": 24,
 		"requiredResource": "Hero Candidate",
-		"promotions": ["Shock","Great Generals I"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit"],
+		"promotions": ["Tortoise","Great Generals I"],
+		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1782,7 +1797,7 @@
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
 		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[-15]% Strength <when attacking> <vs cities>", 
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
@@ -1794,7 +1809,7 @@
 		"strength": 24,
 		"requiredResource": "Hero Candidate",
 		"uniques": ["Unbuildable", "[+100]% Strength <vs [Mounted] units>", "Only available <with [Hero Candidate]>", 
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1806,7 +1821,7 @@
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
 		"uniques": ["Unbuildable", "Can move after attacking", "No defensive terrain bonus", "Only available <with [Hero Candidate]>", 
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "horse"
 	},
@@ -1820,7 +1835,7 @@
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I","Logistics"],
 		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[-15]% Strength <when attacking> <vs cities>", 
-			"[-15]% Strength <when attacking> <vs [Water] units>", "Never appears as a Barbarian unit"],
+			"[-15]% Strength <when attacking> <vs [Water] units>", "Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "arrow"
 	},
@@ -1831,7 +1846,7 @@
 		"strength": 22,
 		"requiredResource": "Hero Candidate",
 		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", 
-			"Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
@@ -1844,7 +1859,7 @@
 		"range": 2,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Navigator","Great Generals I"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "Uncapturable"],
+		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "Uncapturable", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
@@ -1856,7 +1871,8 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Sentry"],
-		"uniques": ["Unbuildable", "May withdraw before melee ([33]%)", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "Uncapturable"],
+		"uniques": ["Unbuildable", "May withdraw before melee ([33]%)", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", 
+			"Uncapturable", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable, May withdraw before melee (33%)",
 		"attackSound": "metalhit"
 	},
@@ -1894,7 +1910,7 @@
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
+					"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1907,17 +1923,31 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["Can construct [Holy site] <if it hasn't used other actions yet>", "Can [Spread Religion] [4] times",
-			"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
-			"Takes your religion over the one in their birth city"],
+				"Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
+				"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
+				"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
+				"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Meka-Priest",
+		"unitType": "Civilian",
+		"uniqueTo": "Machinia",
+		"replaces": "Great Prophet",
+		"uniques": ["Can construct [Meka-Monastery] <if it hasn't used other actions yet>", 
+					"Can construct [Kyber Foundry] <if it hasn't used other actions yet>", 
+					"Can [Spread Religion] [4] times", "Removes other religions when spreading religion", "May found a religion", "May enhance a religion", 
+					"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]", 
+					"Unbuildable", "Religious Unit", "Hidden when religion is disabled", 
+					"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
 	},
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", 
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", 
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -1926,7 +1956,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Urg",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Uncapturable",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", "Uncapturable",
 			"All adjacent units heal [+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
 		"movement": 5
 	},
@@ -1960,17 +1990,34 @@
 	{
 		"name": "Warrior Monk",
 		"unitType": "Monk",
+		"movement": 2,
+		"strength": 20,
+		"cost": 100,
+		"obsoleteTech": "Biology",
+		"upgradesTo": "Shaolin",
+		"uniques": ["Prevents spreading of religion to the city it is next to", "Religious Unit", "Only available <after adopting [Postulant]>", 
+			"[+10]% Strength <when adjacent to a [Priest] unit>", "[+10]% Strength <when adjacent to a [Cleric] unit>", 
+			"Never appears as a Barbarian unit"],
+		"replacementTextForUniques": "Prevents spreading of religion to the city it is next to, +10% Strength when adjacent to a Cleric unit",
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+            {"text":"Warrior Monk only available after adopting Postulant", "link":"Policy/Postulant", "link":"Unit/Priest", "link":"Unit/Cleric"}
+		]
+	},
+	{
+		"name": "Shaolin",
+		"unitType": "Monk",
 		"movement": 3,
 		"strength": 40,
 		"cost": 200,
-		"uniques": ["Prevents spreading of religion to the city it is next to", "Religious Unit", "Only available <after adopting [Postulant]>", 
-			"[+10]% Strength bonus for [Hero] units within [1] tiles", "[+10]% Strength bonus for [Siege Hero] units within [1] tiles", 
-			"[+10]% Strength bonus for [Water Hero] units within [1] tiles", "[+10]% Strength bonus for [Melee Water Hero] units within [1] tiles", 
+		"requiredTech": "Biology",
+		"uniques": ["Prevents spreading of religion to the city it is next to", "Religious Unit", "Only available <after adopting [Piety Complete]>", 
+			"[+10]% Strength <when adjacent to a [Priest] unit>", "[+10]% Strength <when adjacent to a [Cleric] unit>", 
 			"Never appears as a Barbarian unit"],
-		"replacementTextForUniques": "Prevents spreading of religion to the city it is next to, +10% Strength bonus for Hero units within 1 tiles.",
+		"replacementTextForUniques": "Prevents spreading of religion to the city it is next to, +10% Strength when adjacent to a Cleric unit",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-            {"text":"Warrior Monk only available after adopting Postulant", "link":"Policy/Postulant"}
+            {"text":"Shaolin move faster than Warrior Monk", "link":"Policy/Postulant", "link":"Unit/Priest", "link":"Unit/Cleric"}
 		]
 	},
 	
@@ -2021,8 +2068,8 @@
 		"strength": 25,
 		"cost": 50,
 		"obsoleteTech": "Wizardry",
-		"uniques": ["[+15]% Strength <vs [Mounted] units>", "Only available <in [Desert] tiles>", "Limited to [1] per Civilization", 
-			"Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["[+15]% Strength <vs [Mounted] units>", "[+2] Movement <in [Desert] tiles>", "Only available <in [Desert] tiles>", 
+			"Limited to [1] per Civilization", "Will not be displayed in Civilopedia", "Beast"],
 		"attackSound": "nonmetalhit"
 	},
 	{
