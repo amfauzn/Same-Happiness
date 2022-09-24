@@ -99,8 +99,8 @@
 		"outerColor": [255,184,33]
 		"innerColor": [153,  5, 3],
 		"uniqueName": "Tracker Legion",
-		"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Land}] units>", 
-			"[+1] Movement <for [{Military} {Land}] units> <when at war>", "Normal vision when embarked <for [{Military} {Land}] units>"],
+		"uniques": ["[+1] Movement <for [Military] units> <when at war>", "[+1] Sight <for [{Military} {Land}] units>", 
+			"Normal vision when embarked <for [{Military} {Land}] units>"],
 		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
 			"Lörissa","Joho Lor","Temwan","Sobayan","Senden"],
 		"civilopediaText": [
@@ -479,7 +479,7 @@
 		"favoredReligion": "Uncertainty"
 		"style": "Goblin",
 		
-		"startIntroPart1": "Welcome, O' elder Anzogh! We grovel in awe at your magnificence! You are the leader of Torakj people, through cunning diplomacy, the tiny village grew into a mighty forces.",
+		"startIntroPart1": "Welcome, O' elder Anzogh! We grovel in awe at your magnificence! You are the leader of Torakj people, through cunning diplomacy and tactic, the tiny village grew into a mighty forces.",
 		"startIntroPart2": "Oh, wise and puissant tetua Anzogh, your people need you to once again lead them to greatness! Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my men. We ride to war!",
@@ -493,16 +493,15 @@
 		
 		"outerColor": [ 12, 75, 25],
 		"innerColor": [255,255,255],
-		"uniqueName": "Justice League",
-		"uniques": ["[-25]% City-State Influence degradation", "City-State territory always counts as friendly territory",
-			"[+50]% [Food] from City-States", "[+10]% Strength <for [non-air] units> <when fighting in [Friendly Land] tiles>"],
+		"uniqueName": "Horde of Greens",
+		"uniques": ["[+1] Movement <in [Enemy Land] tiles> <for [Land] units>", "[+15]% to Flank Attack bonuses <for [Land] units>",
+			"[+2] XP gained from combat <for [non-air] units>", "[+1 Happiness] from every [Courthouse]"],
 		"cities": ["Torakj","Mogrim","Gaul","Dade","Talu","Bullu","Bao","Kasel","Neuss","Herne","Bonn","Loyn","Wisbaden",
 			"Horkj","Skurkj"],
 		"civilopediaText": [
 			{"text":"Torakj is a goblin civilization, led by Anzogh. Famous as weak creature, they are very skilled at looting cities."},
 			{"text":"Tips to play:"}
-			{"text":"Plunder Gold to maintain relationship with City-State, that is."},
-			{"text":"As for Belief choose Defender of the Faith to protect allied City-State, or destroy it."}
+			{"text":"Attack and plunder cities using formation, to utilize their Flank attack bonuses."}
         ]
 	},
 	
@@ -530,7 +529,7 @@
 		"outerColor": [215,225,225],
 		"innerColor": [  0,  0,  0],
 		"uniqueName": "Blessed Winter",
-		"uniqueText": "-25% Culture cost of natural border growth in your first 4 cities\n-25% unhappiness from specialists in your first 4 cities\nReceive free Great Farmer when you discover Pottery",
+		"uniqueText": "-25% Culture cost of natural border growth in your first 4 cities\n-25% unhappiness from specialists in your first 4 cities\nReceive free Great Farmer when you discover Pottery and Fertilizer",
 		"uniques": ["Provides a [~suka] in your first [4] cities for free", "Receive free [Great Farmer] when you discover [Pottery]", 
 					"Receive free [Great Farmer] when you discover [Fertilizer]"],
 		"cities": ["Frostmorrow","Igos","Sandless","Noach","Maumere","Iver","Ykutz","Vladivostok","Smolensk","Orenburg",
@@ -566,7 +565,7 @@
 		"outerColor": [221,141,  0],
 		"innerColor": [255,244,174],
 		"uniqueName": "Sand Dweller",
-		"uniques": ["[+1 Food] from every [Flood plains]", "[+10]% Strength <when fighting in [Desert] tiles>", 
+		"uniques": ["[+1 Food] from every [Fresh Water]", "[+10]% Strength <when fighting in [Desert] tiles>", 
 			"[+10]% Strength <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
 			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir"],
@@ -637,7 +636,7 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Pure Bloodline",
-		"uniqueText": "Settler gained slower\n+2 Gold, -25% unhappiness from population in your first 4 cities\n+8 Culture, Gain a free Great Artist equivalent upon completion of Tradition policy Tree\n+33% Unhappiness from population in annexed cities",
+		"uniqueText": "Settler gained slower\n+2 Gold, -25% unhappiness from population in your first 4 cities\n+8 Culture, Gain a free Para Artist upon completion of Tradition policy Tree\n+33% Unhappiness from population in annexed cities",
 		"uniques": ["Provides a [Astana] in your first [4] cities for free", "[+33]% Unhappiness from [Population] [in annexed cities]"],
 		"cities": ["Clansperson","Getih","Kinsfolk","Consanguine","Sib","Grandeur","Cults","Claret","Clot","House Rules",
 			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"],
@@ -788,16 +787,15 @@
 		"uniques": ["Enables embarkation for land units <starting from the [Archaic age]>", 
 			"Enables [All] units to enter ocean tiles <starting from the [Archaic age]>",
 			"[{Military} {Land}] units gain the [Water Creature] promotion", "Defense bonus when embarked <for [All] units>", 
-			"Double quantity of [Megall] produced", "[1] Movement point cost to embark <for [Siren] units>", 
-			"[1] Movement point cost to embark <for [Sword] units>", "[1] Movement point cost to embark <for [Anti-Cav] units>"],
+			"Double quantity of [Megall] produced", "[1] Movement point cost to embark <for [Sword] units>", 
+			"[1] Movement point cost to embark <for [Anti-Cav] units>"],
 		"cities": ["Lemuria","Atlantis","Agarthea","Avalonia","Erum","Kitezha","Kumari Kanda","Mu","Shangri-La","Lyonessa","Quivira","Buyana",
 			"Cantre'r Gwaelea","Cibola","Llys","Ys","Ogygia"],
 		"civilopediaText": [
 			{"text":"Almuria is a merfolk civilization, led by Fala Vieya. Merfolk can live either on Land or in Water, but they can't tolerate scorching sun."},
 			{"text":"Tips to play:"}
-			{"text":"Fight alongside Coast or water resources since it'll make Almuria units stronger."},
-			{"text":"Search Megall as much as possible."},
-			{"text":"Build Siren instead of Worker."}
+			{"text":"Fight alongside Coast or fresh water since it'll make Almuria units stronger."},
+			{"text":"Search Megall as much as possible."}
         ]
 	},
 	
@@ -826,7 +824,7 @@
 		"innerColor": [12,242,189],
 		"uniqueName": "Higba's Ingenuity",
 		"uniqueText": "+1 Production from every 2 ages for cities settled on Hill\nReceive free Orichalcum Golem after discovering Engineering",
-		"uniques": ["Receive free [Orihalcum Golem] when you discover [Engineering]", 
+		"uniques": ["Receive free [Orichalcum Golem] when you discover [Engineering]", 
 					"Gain a free [Higba's Legacy] [in all cities] <in [Hill] tiles>"],
 		"cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
 			"Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
@@ -933,10 +931,10 @@
 		"outerColor": [237,197,82],
 		"innerColor": [186, 60, 3],
 		"uniqueName": "Magnum Opus",
-		"uniqueText": "+10% Strength for Mage and Construct units\n+2 Science, +2 Production for every Porta Alchemica\nGain a free Porta Alchemica in Capital after discovering Mathematics\nReceive free Great Scientist when you discover Alchemy\nGreat Scientist can construct Matter Transmuter",
+		"uniqueText": "+10% Strength for Mage and Construct units\nGain a free Porta Alchemica in Capital after discovering Mathematics\nReceive free Great Scientist when you discover Alchemy\nGreat Scientist can construct Matter Transmuter",
 		"uniques": ["[+10]% Strength <for [Mage] units>", "[+10]% Strength <for [Construct] units>", 
-					"Gain a free [Porta Alchemica] [in capital] <after discovering [Mathematics]>", "[+2 Science, +2 Production] from every [Porta Alchemica]", 
-					"Receive free [Great Scientist] when you discover [Alchemy]", "[Great Scientist] units gain the [Alchemist Horizon] promotion"], 
+					"Gain a free [Porta Alchemica] [in capital] <after discovering [Mathematics]>", "Receive free [Great Scientist] when you discover [Alchemy]", 
+					"[Great Scientist] units gain the [Alchemist Horizon] promotion"], 
 		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
 			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
 		"civilopediaText": [
@@ -980,7 +978,82 @@
 		"cities": ["Elysia Primus","Aeris","Xyranthius","Archonis","Suikopas","Aeris Nova","Korolia","Mirias","Valecia","Riamus","Amerie",
 			"Tryndalus","Urb Mallus","Liqomar","Albua","Postremus"],
 		"civilopediaText": [
-			{"text":"."},
+			{"text":"Machinia is a civilization that strive to become machine as they worship their Machine-God. They are both religious and scientific civilization."},
+			{"text":"Tips to play:"},
+			{"text":"Machinia has strong units but are more expensive to produce, make sure to protect them."},
+			{"text":"Recruit as many Meka-priest as soon as possible and construct their unique great improvements."},
+			{"text":"Complete Piety or Rationalism as soon as possible as they will unlock the full potential of those great improvements."},
+        ]
+	},
+	
+	{
+		"name": "Arxia",
+		"leaderName": "Hierarch Mordus",
+		"adjective": ["Arxian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Balance",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": ".",
+		
+		"outerColor": [242,101,0],
+		"innerColor": [89, 255, 0],
+		"uniqueName": "Prophecy of Prosperity",
+		"uniqueText": "+1 Food, +1 Production for Desert tiles adjacent to City Center\nNew Military Land unit starts with 5 Experience\nCannot gain Great General (-100% generation), but receive free Scorpion General every age in Capital, starting from Heroic Age",
+		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
+					"New [{Military} {Land}] units start with [5] Experience [in all cities]",
+					"[Great General] is earned [-100]% faster"], 
+		"cities": ["Arx","Hepus","Amidonia","Yolis","Xada","Anceport","Idofield","Lashire","Mauxland","Ordton","Wexton","Kurx",
+			"Alerough","Pimmouth","Buxia","Ixla","Izok"],
+		"civilopediaText": [
+			{"text":"Arxia can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military and production and have moderate Science and Faith output."},
+			{"text":"Tips to play:"},
+			{"text":"Settle near Desert Hill to maximize Arxia's National Ability. Try not to lose your Scorpion General, you can only earn them once every era."},
+        ]
+	},
+	
+	{
+		"name": "'Nkuhanea",
+		"leaderName": "Empress Erish",
+		"adjective": ["Nkuhanean"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Spontanism",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": ".",
+		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
+		"defeated": "No, I am not ready to leave my people. No!",
+		"introduction": ".",
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": ".",
+		
+		"outerColor": [105,34,172],
+		"innerColor": [255,102,102],
+		"uniqueName": "Valley of Rejuvenation",
+		"uniqueText": "+1 Population to all cities settled on River\nAll Land-Military units gain the Amphibious promotion\n-33% tile improvement construction time in River tiles",
+		"uniques": ["[-33]% tile improvement construction time <in [River] tiles>",
+					"[{Military} {Land}] units gain the [Amphibious] promotion"], 
+		"cities": ["Akhetutan","Sabata","Guzana","Noenna","Chu'ata","Vrybergam","Jundiaí","Pliska","Jayapura","Beikthano","Kyaukse","Veptis Parla",
+			"Hieraconpolia","Binnaka","Nias","Quirigua","Q'umarkaj"],
+		"civilopediaText": [
+			{"text":"'Nkuhanea is a tall cultured civilization. It's no wonder that they are masterful at both scientific and arcane arts."},
+			{"text":"Tips to play:"},
+			{"text":"Conquer as many cities as possible, build Porta Alchemica, and fill the Alchemist specialist slot as soon as possible. They worth more than normal Scientist."},
         ]
 	},
 	
@@ -1315,7 +1388,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [182,0,0],
 		"style": "Barbarians",
-		"uniques": ["Can only heal by pillaging", "[{Melee} {Land}] units gain the [No Suicide] promotion", 
-			"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
+		"uniques": ["Can only heal by pillaging", "[Recon] units gain the [No Suicide] promotion", "[Sword] units gain the [No Suicide] promotion", 
+			"[Anti-Cav] units gain the [No Suicide] promotion", "[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
 	}
 ]

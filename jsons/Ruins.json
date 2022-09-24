@@ -137,7 +137,7 @@
     },
 	{
         "name": "reveal nearby Beast location",
-        "notification": "A beast tamer share their beast location!",
+        "notification": "A dying beast tamer share their beast location!",
         "uniques": ["Reveal up to [3] [Dragon's Egg] within a [15] tile radius", 
 					"Reveal up to [1] [Megall] within a [7] tile radius"]
     },

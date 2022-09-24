@@ -263,7 +263,7 @@
 	{
 		"name": "Man-eating tree",
 		"type": "TerrainFeature",
-		"faith": 2,
+		"faith": 1,
 		"movementCost": 2,
 		"unbuildable": true,
 		"occursOn": ["Grassland"],

@@ -126,7 +126,7 @@
 		"production": 1,
 		"techRequired": "Domestication",
 		"uniques": ["Does not need removal of [Forest]", "Does not need removal of [Jungle]", 
-					"[+1 Production, +1 Gold] <after discovering [Archaeology]>", 
+					"[+2 Production, +1 Gold] <after discovering [Biology]>", 
 					"Can only be built to improve a resource", 
 					"Pillaging this improvement yields approximately [+15 Gold]"],
 		"shortcutKey": "C"
@@ -144,8 +144,7 @@
 		"name": "Cultivated farm",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 3,
-		"uniques": ["Great Improvement", "[+2 Food] <after discovering [Fertilizer]>", "[+1 Happiness] <in [Luxury resource] tiles>", 
-					"Pillaging this improvement yields approximately [+15 Gold]"]
+		"uniques": ["Great Improvement", "[+2 Food] <after discovering [Fertilizer]>", "Pillaging this improvement yields approximately [+15 Gold]"]
 	},
 
 	// Military improvement
@@ -348,18 +347,17 @@
 	{
 		"name": "Dhab Hunter Camp",
 		"uniqueTo": "Smeheng",
-		"terrainsCanBeBuiltOn": ["Desert"],
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
 		"food": 2,
 		"culture": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Engineering",
+		"techRequired": "Archery",
 		"uniques": ["[+2 Culture] <after discovering [Acoustics]>", 
-					"Cannot be built on [Desert] tiles <with [0] to [0] neighboring [Oasis] tiles>", 
 					"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>", 
 					"Pillaging this improvement yields approximately [+8 Gold]"],
 		"shortcutKey": "C",
 		"civilopediaText": [
-            {"text":"Dhab Hunter Camp can only be built next to Oasis and can not be be built next to each other."}
+            {"text":"Dhab Hunter Camp can not be be built next to each other."}
         ]
 	},
 	{
@@ -395,7 +393,8 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["[+1 Food] <after discovering [Civil Service]>", "[+1 Food] for each adjacent [Blessed Farm]"]
+		"uniques": ["[+1 Food] <after discovering [Civil Service]>", "[+1 Food] for each adjacent [Blessed Farm]"],
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Matter Transmuter",
@@ -404,10 +403,8 @@
 		"gold": 2,
 		"science": 3,
 		"production": 2,
-		"uniques": ["Great Improvement",
-					"Removes removable features when built", 
-					"[+2 Gold] <after discovering [Economics]>", 
-					"[+3 Science] <after discovering [Scientific Theory]>"]
+		"uniques": ["Great Improvement", "Removes removable features when built", 
+					"Tile provides yield without assigned population"]
 	},
 	{
 		"name": "Meka-Monastery",
@@ -415,7 +412,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 2,
 		"faith": 4,
-		"uniques": ["Great Improvement",
+		"uniques": ["Great Improvement", "Removes removable features when built", 
 					"[+2 Gold, +3 Culture, +1 Faith] <after adopting [Piety Complete]>",
 					"[+2 Science, +2 Production, +1 Faith] <after adopting [Rationalism Complete]>"],
 		"civilopediaText": [
@@ -427,14 +424,34 @@
 		"uniqueTo": "Machinia",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 3,
-		"production": 2,
-		"faith": 1,
-		"uniques": ["Great Improvement", 
+		"production": 1,
+		"faith": 2,
+		"uniques": ["Great Improvement", "Removes removable features when built", 
 					"[+2 Gold, +3 Culture, +1 Faith] <after adopting [Piety Complete]>",
 					"[+2 Science, +2 Production, +1 Faith] <after adopting [Rationalism Complete]>"],
 		"civilopediaText": [
             {"text":"Either Piety or Rationalism grants additional bonus for this improvement."}
         ]
+	},
+	{
+		"name": "Oracle Monument",
+		"uniqueTo": "Arxia",
+		"terrainsCanBeBuiltOn": ["Desert","Flood plains"],
+		"faith": 3,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Science] <after discovering [Theology]>", "[+1 Science] <after discovering [Scientific Theory]>", 
+					"Cannot be built on [Land] tiles <with [0] to [0] neighboring [City center] tiles>", ]
+	},
+	{
+		"name": "Lodepit",
+		"uniqueTo": "'Nkuhanea",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] <after discovering [Metallurgy]>", "[+1 Gold] <in [River] tiles>", 
+					"[+2 Culture] for each adjacent [City center] <after discovering [Acoustics]>"]
 	},
 
 	// Unbuildable improvements

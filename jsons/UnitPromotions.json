@@ -784,7 +784,7 @@
 		"uniques": ["[+10]% Strength <when attacking>"]
 	},
 	{
-		"name": "Ignore terrain cost", // Unicorn
+		"name": "Ignore terrain cost", // Unicorn, Fast Worker
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
@@ -796,6 +796,10 @@
 		"uniques": ["May withdraw before melee ([66]%)"]
 	},
 	{
+		"name": "Seduction", // Daggerman
+		"uniques": ["May capture killed [Land] units"]
+	},
+	{
 		"name": "Fight Bark", // Mink & Wolf Rider
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
@@ -804,8 +808,16 @@
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
 	},
 	{
-		"name": "Skating", // Yeti
+		"name": "Plunderer", // Torakj
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]
+	},
+	{
+		"name": "Skating", // Realm Patrol
 		"uniques": ["Double movement in [Snow]"]
+	},
+	{
+		"name": "[Realm Patrol] ability", // Yeti
+		"uniques": ["[+1] Movement <in [Friendly Land] tiles>"]
 	},
 	{
 		"name": "Vampiric Touch", // Vampire
@@ -840,10 +852,14 @@
 	},
 	{
 		"name": "Regenerative Bio-Steel", // Iron Templar
-		"uniques": ["[+10] HP when healing", "[+25]% Strength <when defending>"]
+		"uniques": ["[+10] HP when healing", "[+10]% Strength <when defending>"]
 	},
 	{
-		"name": "No Suicide", // Barbarians Melee Land
+		"name": "No Suicide", // Barbarians Recon, Sword and Anti-Cav
 		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units", "[+10]% Strength <vs [Ranged] units> <when defending>"]
+	},
+	{
+		"name": "Impetus", // Fanatic
+		"uniques": ["[+25]% Strength <when attacking> <when above [99] HP>"]
 	},
 ]

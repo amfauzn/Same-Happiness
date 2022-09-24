@@ -108,7 +108,7 @@
     {
         "name": "Sacred Trees",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Jungle]", "[+1 Culture, +1 Faith] from every [Man-eating tree]"]
+        "uniques": ["[+1 Culture] from every [Jungle]", "[+1 Culture, +2 Faith] from every [Man-eating tree]"]
     },
     {
         "name": "Sacred Waters",

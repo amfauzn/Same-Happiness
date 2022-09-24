@@ -76,7 +76,8 @@
 	},
 	{
         "name": "Mage",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": ["[+25]% Strength <vs [Construct] units> <when attacking>"]
     },
 	{
         "name": "Monk",
@@ -85,7 +86,11 @@
 	{
         "name": "Construct",
         "movementType": "Land",
-        "uniques": ["[+10]% Strength <when defending>", "Ignores Zone of Control"]
+        "uniques": ["[+20]% Strength <when defending>", "Ignores Zone of Control"]
+    },
+	{
+        "name": "Tamer",
+        "movementType": "Land"
     },
     
 	// Water
