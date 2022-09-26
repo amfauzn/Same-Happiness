@@ -450,8 +450,20 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] <after discovering [Metallurgy]>", "[+1 Gold] <in [River] tiles>", 
+		"uniques": ["[+1 Production] <after discovering [Metallurgy]>", "[+1 Gold] <in [Fresh Water] tiles>", 
 					"[+2 Culture] for each adjacent [City center] <after discovering [Acoustics]>"]
+	},
+	{
+		"name": "Sacred Cove",
+		"uniqueTo": "Shinso",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 2,
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Theology",
+		"uniques": ["[+2 Culture] <after discovering [Enlightenment]>", 
+					"Cannot be built on [Land] tiles <with [0] to [0] neighboring [Ley Line] tiles>",
+					"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Sacred Cove] tiles>"]
 	},
 
 	// Unbuildable improvements

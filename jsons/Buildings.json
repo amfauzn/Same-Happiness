@@ -341,6 +341,26 @@
 		"requiredTech": "Bronze Working",
 		"quote": "If Gurun, Seram, Tanjung Pura, Hary, Pahang, Dompo, Bali, Sunda, Palembang, Temasek, are all defeated, I will break my fast.' - Gajah Mada"
 	},
+	{
+		"name": "Pillar of Life",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"food": "4",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isNationalWonder": true,
+		"uniques": ["[25]% Food is carried over after population increases [in all cities]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Pillar of Learning",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"science": "4",
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+1 Science] from each Trade Route"],
+		"requiredTech": "Writing"
+	},
 	
 	// Heroic age
 	
@@ -641,6 +661,26 @@
 		"uniques": ["[+50]% Golden Age length"],
 		"requiredTech": "Metal Casting",
 		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
+	},
+	{
+		"name": "Pillar of Prosperity",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"gold": "4",
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+1 Gold] from every [Market]", "[+1 Gold] from every [Bank]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Pillar of Faith",
+		"uniqueTo": "Shinso",
+		"cost": 300,
+		"faith": "4",
+		"greatPersonPoints": {"Great Artist": 1},
+		"isNationalWonder": true,
+		"uniques": ["[+1 Faith] from [All] tiles [in all cities] <with [1] to [6] neighboring [Mountain] tiles>"],
+		"requiredTech": "Theology"
 	},
 	
 	// Feudal age
@@ -1789,7 +1829,7 @@
 		"uniqueTo": "'Nkuhanea",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [River]", "Will not be displayed in Civilopedia",
+		"uniques": ["Unsellable", "Must be on [Fresh Water]", "Will not be displayed in Civilopedia",
 					"[+1] population [in this city]"]
 	}
 ]

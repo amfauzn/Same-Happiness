@@ -406,6 +406,22 @@
 		]
 	},
 	{
+		"name": "Onmyouji",
+		"uniqueTo": "Shinso",
+		"replaces": "Composite Bowman",
+		"unitType": "Mage",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 13,
+		"range": 1,
+		"cost": 70,
+		"requiredTech": "Construction",
+		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Machinery",
+		"hurryCostModifier": 20,
+		"attackSound": "whoosh"
+	},
+	{
 		"name": "Spearman",
 		"unitType": "Anti-Cav",
 		"movement": 2,
@@ -793,7 +809,6 @@
 		"obsoleteTech": "Mana Channelling",
 		"upgradesTo": "Arch-Wizard",
 		"requiredResource": "Magician",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[-15]% Strength <vs [Melee] units> <when defending>"],
 		"attackSound": "artillery",
 		"civilopediaText": [
 			{"text": "Mage unit, strong when attacking cities but vulnerable in close combat."}
@@ -1083,7 +1098,6 @@
 		"obsoleteTech": "Mana Battery",
 		"upgradesTo": "Sorcerer",
 		"requiredResource": "Magician",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[-15]% Strength <vs [Melee] units> <when defending>"],
 		"attackSound": "artillery",
 		"civilopediaText": [
 			{"text": "Mage unit, strong when attacking cities but vulnerable in close combat. This unit gain more range from its predecessor."}
@@ -1421,8 +1435,7 @@
 		"upgradesTo": "Sage",
 		"obsoleteTech": "Rocketry",
 		"requiredResource": "Magician",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[+15]% Strength <vs [Military] units> <when attacking>", 
-			"[-10]% Strength <vs [Melee] units> <when defending>"],
+		"uniques": ["[+10]% Strength <vs [Military] units> <when attacking>"],
 		"attackSound": "artillery",
 		"civilopediaText": [
 			{"text":"Mage unit, strong when attacking but vulnerable in close combat."}
@@ -1692,11 +1705,12 @@
 		"rangedStrength": 65,
 		"cost": 410,
 		"requiredTech": "Rocketry",
-		"uniques": ["[+10]% Strength <vs [Military] units> <when attacking>"],
+		"requiredResource": "Magician",
+		"uniques": ["[+15]% Strength <vs [Military] units> <when defending>", "[+15]% Strength <vs [Military] units> <when attacking>"],
 		"promotions": ["Owl's Eye"],
 		"attackSound": "artillery",
 		"civilopediaText": [
-			{"text":"Mage unit, doesn't vulnerable in close combat."}
+			{"text":"Mage unit, doesn't vulnerable in close combat. It's defending bonus is just for neglecting mage unit's drawback."}
 		]
 	},
 	{

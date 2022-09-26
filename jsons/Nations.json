@@ -60,7 +60,7 @@
 			"When defeating a [Hunter] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 			"When defeating a [Marauder] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 			"When defeating a [Pillager] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Construct] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+			"When defeating a [Tomb Guard] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 			"When defeating a [Divine Order] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 			"When defeating a [Iron Templar] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 			"[-33]% maintenance costs <for [{Military} {Land}] units>", 
@@ -1026,7 +1026,7 @@
 		"name": "'Nkuhanea",
 		"leaderName": "Empress Erish",
 		"adjective": ["Nkuhanean"],
-		"startBias": ["River"],
+		"startBias": ["Fresh Water"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Spontanism",
 		
@@ -1045,7 +1045,7 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,102,102],
 		"uniqueName": "Valley of Rejuvenation",
-		"uniqueText": "+1 Population to all cities settled on River\nAll Land-Military units gain the Amphibious promotion\n-33% tile improvement construction time in River tiles",
+		"uniqueText": "+1 Population to all cities settled on Fresh Water\nAll Land-Military units gain the Amphibious promotion\n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% tile improvement construction time <in [River] tiles>",
 					"[{Military} {Land}] units gain the [Amphibious] promotion"], 
 		"cities": ["Akhetutan","Sabata","Guzana","Noenna","Chu'ata","Vrybergam","Jundiaí","Pliska","Jayapura","Beikthano","Kyaukse","Veptis Parla",
@@ -1055,6 +1055,34 @@
 			{"text":"Tips to play:"},
 			{"text":"Conquer as many cities as possible, build Porta Alchemica, and fill the Alchemist specialist slot as soon as possible. They worth more than normal Scientist."},
         ]
+	},
+	
+	//Takashi no Seimei of Shinso
+	{
+		"name": "Shinso",
+		"leaderName": "Takashi no Seimei",
+		"adjective": ["Shinso"],
+		
+		"startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, taking all of which this world has to offer.",
+		"startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You won't stand a chance against our mighty casters!",
+		"attacked": "You dare to touch our sacred lands? It will be your grave!",
+		"defeated": "A pity that I won't be able to see Prosperity.",
+		"introduction": "I am Takashi no Seimei, welcome to our land! Please, take off your shoes.",
+		
+		"neutralHello": "Greetings sir, what matters bring you here?",
+		"hateHello": "The vermin wants to talk, then you shall talk.",
+		"tradeRequest": "We've come to bargain Sir.",
+		
+		"outerColor": [218,165,32],
+		"innerColor": [0,0,205],
+		"favoredReligion": "Balance",
+		"uniqueName": "Pillars of Heaven",
+		"uniqueText": "Gain access to four Unique National Wonders\n+2 Production from every Ley Line",
+		"uniques": ["[+2 Production] from every [Ley Line]"],
+		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
+			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"]
 	},
 	
 	// City-States
